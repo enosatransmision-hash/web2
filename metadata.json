@@ -1,0 +1,8 @@
+{
+  "name": "Remix Sistema de Gestión y Control de Líneas de Subtransmisión",
+  "description": "Sistema web profesional para el registro, control, inspecciones y supervisión de actividades en líneas de subtransmisión eléctrica, estructuras, efecto corona, deficiencias, podas, termografía y DMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

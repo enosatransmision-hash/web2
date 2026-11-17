@@ -1,0 +1,59 @@
+ITEM	Línea	Estructura	"Coordenada UTM
+Este"	"Coordenada UTM
+Norte"	"Tipo De
+Estructura"	Material de estructura	"Fecha de la
+última medición
+de resistencia
+de PAT (Puesta a
+tierra)"	"Resultado del
+valor de medición
+de la resistencia
+de puesta a tierra
+obtenida de la
+estructura."	Comentario
+1	L129	4	544609	9597877	Alineamiento	Madera	Set-25	22.30	
+2	L129	7	544969	9597811	Alineamiento	Madera	Set-25	9.66	
+3	L129	17	546868	9597998	Alineamiento	Madera	Set-25	15.85	
+4	L129	58	554669	9600727	Alineamiento	Madera	Set-25	10.67	
+5	L129	59	554769	9600827	Alineamiento	Madera	Set-25	15.91	
+6	L-6561	39	532305	9412699	Alineamiento	Madera	Set-23	11.25	
+7	L-6561	44	532359	9412065	Alineamiento	Madera	Set-23	1.07	
+8	L-6561	46	532265	9411709	Alineamiento	Madera	Set-23	1.54	
+9	L-6561	47	532231	9411508	Alineamiento	Madera	Set-23	2.08	
+10	L-6561	67	531212	9408321	Alineamiento	Madera	Set-23	1.23	
+11	L-6561	74	531053	9407479	Alineamiento	Madera	Set-23	8.79	
+12	L-6561	75	531034	9407433	Alineamiento	Madera	Set-23	6.94	
+13	L-6561	76	531005	9407369	Alineamiento	Madera	Set-23	9.49	
+14	L-6561	77	530978	9407300	Anclaje	Madera	Set-23	1.58	
+15	L-6561	78	530896	9407116	Angulo	Madera	Set-23	2.30	
+16	L-6561	79	530709	9407061	Alineamiento	Madera	Set-23	0.25	
+17	L-6561	80	530541	9407011	Alineamiento	Madera	Set-23	24.60	
+18	L-6561	81	530395	9406968	Alineamiento	Madera	Set-23	53.00	
+19	L-6561	95	528801	9404857	Anclaje	Madera	Set-23	25.30	
+20	L-6561	122	526296	9402747	Anclaje	Madera	Set-23	6.22	
+21	L-6650/6651	5	534060	9428553	Alineamiento	CAC	Ag -22	12.64	
+22	L-6657A	2	533509	9429007	Alineamiento	CAC	Set-23	3.77	
+23	L-6657C	31	549720	9428123	Anclaje	Madera	Set-23	22.36	
+24	L-6657C	39	551549	9428675	Alineamiento	Madera	Set-23	23.18	
+25	L-6659	6	488449	9437547	Anclaje	CAC	Set-22	25.02	
+26	L-6659	8	488268	9437319	Angulo	CAC	Set-22	11.07	
+27	L-6659	17	487304	9436539	Alineamiento	CAC	Set-22	23.78	
+28	L-6662	90	535310	9456942	Alineamiento	CAC	Ag -22	24.60	
+29	L-6662	91	535477	9456981	Alineamiento	CAC	Ag -22	22.36	
+30	L-6662	92	535563	9457002	CD	CAC	Ag -22	23.45	
+31	L-6662	93	535622	9456977	Anclaje	CAC	Ag -22	24.63	
+32	L-6665A	4	544726	9597466	Alineamiento	Madera	Set-25	9.90	
+33	L-6665A	7	545459	9597353	Alineamiento	Madera	Set-25	1.12	
+34	L-6665A	10	546119	9597405	Anclaje	Madera	Set-25	18.33	
+35	L-6665A	77	562795	9603163	Anclaje	Madera	Set-25	6.11	
+36	L-6665A /L-6766(DT)	1 (DT)	562590	9603372	Alineamiento	Madera	Set-25	3.05	
+37	L-6698	128	535605	9456633	Angulo	CAC	Ag -22	7.59	
+38	L-6698	129	535677	9456732	Angulo	CAC	Ag -22	3.68	
+39	L-6665A /L-6766(DT)	11	564346	9605551	Alineamiento	Madera	Set-25	14.51	
+40	L-6766	15	564811	9606308	Anclaje	Madera	Set-25	23.90	
+41	L-6766	16	564901	9606441	Alineamiento	Madera	Set-25	5.34	
+42	L-6698	67	533453	9444565	Alineamiento	CAC	Ag -22	5.91	
+43	L-6698	68	533474	9444806	Alineamiento	CAC	Ag -22	21.83	
+44	L-6698	78	533579	9447060	Alineamiento	CAC	Ag -22	9.05	
+45	L-6665A	12	546781	9597775	Anclaje	Madera	Set-25	24.96	
+46	L-6665A	11	546456	9597586	Anclaje	Madera	Set-25	16.28	

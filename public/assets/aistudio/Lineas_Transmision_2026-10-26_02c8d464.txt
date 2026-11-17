@@ -1,0 +1,28 @@
+COD_LINEA	NOMBRE	TIPO_SISTEMA	TENSION_NOM	NODO_SALIDA	NODO_LLEGADA	CELDA_SALIDA	CELDA_LLEGADA
+L-6650	LST - S.E. Piura Oeste - S.E. Piura Centro	I	60	S.E. Piura Oeste	S.E. Piura Centro	P100	P101
+L-6652	LST - S.E. Piura Centro - S.E. Castilla	I	60	S.E. Piura Centro	S.E. Castilla	P101	P137
+L-6698	LST - S.E. Piura Oeste - S.E. Sullana	I	60	S.E. Piura Oeste	S.E. Sullana	P100	P102
+L-6662B	LST - S.E. El Arenal - S.E.Huaca	I	60	S.E. El Arenal	S.E.Huaca	P104	S.E. LA HUACA
+L-6662A	LST - S.E. Huaca - S.E. Sullana	I	60	S.E. Huaca	S.E. Sullana	S.E. LA HUACA	P102
+L-6654	LST - S.E. Piura Oeste - S.E. Paita	I	60	S.E. Piura Oeste	S.E. Paita	P100	P103
+L-6657A	LST - S.E. Piura Oeste - S.E. Los Ejidos	I	60	S.E. Piura Oeste	S.E. Los Ejidos	P100	P136
+L-6657C	LST - S.E. Ejidos - S.E. Chulucanas	I	60	S.E. Ejidos	S.E. Chulucanas	P136	P107
+L-6659	LST - S.E. Paita - S.E. Tierra Colorada	I	60	S.E. Paita	S.E. Tierra Colorada	P103	P106
+L-6758	LST - S.E. Paita - S.E. Paita Industrial	I	60	S.E. Paita	S.E. Paita Industrial	P103	P205
+L-6660	LST - S.E. Paita Industrial - S.E. El Tablazo	I	60	S.E. Paita Industrial	S.E. El Tablazo	P205	TABLAZO
+L-6663	LST - S.E. El Tablazo - S.E. El Arenal	I	60	S.E. El Tablazo	S.E. El Arenal	C.T. TABLAZO	P104
+L-128	LST - S.E. Charan - S.E. Zorritos	I	33	S.E. Charan	S.E. Zorritos	C.T CHARAN	P110
+L-129	LST - S.E. Charan - SE. Corrales	I	33	S.E. Charan	SE. Corrales	C.T CHARAN	CORRALES
+L-6560	LST - S.E. Piura Oeste - Patio de Llaves Catacaos	I	60	S.E. Piura Oeste	Patio de Llaves Catacaos	P100	Patio de Llaves Catacaos
+L-6561	LST - Patio de Llaves Catacaos - S.E. La Unión	I	60	Patio de Llaves Catacaos	S.E. La Unión	Patio de Llaves Catacaos	P127
+L-6658B	LST - S.E. La Unión - S.E. Sechura	I	60	S.E. La Unión	S.E. Sechura	P127	P124
+L-6658C	LST - S.E. Sechura - S.E. Constante	I	60	S.E. Sechura	S.E. Constante	P124	P128
+L-6665A	LST - S.E. Nueva Zorritos - S.E. Tumbes	I	60	S.E. Nueva Zorritos	S.E. Tumbes	N ZORRITOS	P108
+L-6766	LST - S.E. Tumbes - S.E. Puerto Pizarro	I	60	S.E. Tumbes	S.E. Puerto Pizarro	P108	P131
+L-6767	LST - S.E. Puerto Pizarro - S.E. Zarumilla	I	60	S.E. Puerto Pizarro	S.E. Zarumilla	P131	P109
+L-6657B	LST - S.E. Los Ejidos - S.E. Castilla	I	60	S.E. Los Ejidos	S.E. Castilla	P136	P137
+L-6657D	LST - Nodo Morropón - S.E. Morropón	I	60	Nodo Morropón	S.E. Morropón	MORROPON	P198
+L-6657D	LST - S.E. Chulucanas - S.E. Loma Larga	I	60	S.E. Chulucanas	S.E. Loma Larga	P107	P199
+L-6668	LST - S.E. Sullana - S.E. Poechos	I	60	S.E. Sullana	S.E. Poechos	P102	P197
+L-6570	LST - S.E. Poechos  - S.E. Las Lomas	I	60	S.E.Poechos	S.E. Las Lomas	P197	P206
+L-6571	LST - S.E. Las Lomas - S.E. Quiroz	I	60	S.E. Las Lomas	S.E. Quiroz	P206	P209

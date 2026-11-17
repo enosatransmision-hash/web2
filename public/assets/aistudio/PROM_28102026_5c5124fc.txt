@@ -1,0 +1,870 @@
+# PROYECTO: SISTEMA WEB PARA EL REGISTRO Y CONTROL DE ACTIVIDADES EN LÍNEAS DE SUBTRANSMISIÓN
+
+## 1. OBJETIVO DEL PROYECTO
+
+Desarrollar un sistema web profesional para el registro, control y supervisión de actividades realizadas en líneas de subtransmisión eléctrica.
+
+El sistema será desarrollado utilizando Visual Studio Code y tendrá como almacenamiento principal archivos de Excel y hojas de cálculo de Google almacenados en Google Drive.
+
+*No utilizar MySQL, MariaDB, XAMPP ni ningún otro servidor de bases de datos.*
+
+Los registros se almacenarán en archivos de Excel y Google Sheets alojados en Google Drive. La aplicación leerá, registrará, modificará y consultará esos archivos mediante las API oficiales de Google.
+
+El sistema debe permitir:
+- Gestionar líneas de subtransmisión.
+- Gestionar estructuras.
+- Administrar usuarios y contratistas.
+- Registrar inspecciones de deficiencias.
+- Registrar inspecciones termográficas.
+- Registrar inspecciones de efecto corona.
+- Registrar actividades de poda.
+- Registrar actividades de mantenimiento.
+- Importar DMS desde archivos Excel.
+- Gestionar levantamientos de DMS.
+- Realizar inspecciones de verificación y cierre de DMS.
+- Almacenar evidencias fotográficas en Google Drive.
+- Generar dashboards y reportes.
+- Registrar las modificaciones realizadas por cada usuario.
+- Mantener los archivos de datos actualizados en Google Drive.
+
+No entregar únicamente un prototipo visual. Desarrollar una aplicación funcional con formularios, validaciones, permisos, lectura y escritura de archivos, auditoría y documentación.
+
+## 2. TECNOLOGÍAS OBLIGATORIAS
+
+Utilizar:
+- Visual Studio Code como entorno de desarrollo.
+- HTML5 para la estructura de la página.
+- CSS3 para el diseño.
+- JavaScript para la interacción y lógica del frontend.
+- Una arquitectura web compatible con alojamiento estático y funciones de servidor.
+- Google Sheets API para consultar y actualizar hojas de cálculo.
+- Google Drive API para acceder y administrar archivos autorizados.
+- Chart.js para los dashboards.
+- Una biblioteca de JavaScript compatible con archivos Excel, como SheetJS, para importar o exportar archivos XLSX cuando sea necesario.
+- Google OAuth 2.0 para la autenticación y autorización de acceso a los servicios de Google.
+- Google Apps Script o funciones de servidor para las operaciones que requieran acceso seguro a las API.
+
+No utilizar:
+- MySQL.
+- MariaDB.
+- XAMPP.
+- phpMyAdmin.
+- Tablas de bases de datos SQL.
+- Servidores SQL.
+- Archivos JSON o localStorage como almacenamiento principal de los registros.
+
+Se permite utilizar archivos temporales, caché y almacenamiento de sesión para el funcionamiento de la interfaz, pero los registros oficiales deberán guardarse en los archivos de Google Drive establecidos por el administrador.
+
+El sistema debe tener una arquitectura clara que separe la interfaz, la lógica de negocio y el acceso a los archivos de Google.
+
+## 3. ARQUITECTURA DE ALMACENAMIENTO
+
+Google Drive será el repositorio central de los archivos del sistema.
+
+Crear una estructura organizada de carpetas, por ejemplo:
+
+SISTEMA_SUBTRANSMISION/
+│
+├── 01_LINEAS/
+│   └── Registro_Lineas.xlsx
+│
+├── 02_ESTRUCTURAS/
+│   └── Registro_Estructuras.xlsx
+│
+├── 03_USUARIOS/
+│   └── Usuarios.xlsx
+│
+├── 04_DEFICIENCIAS/
+│   └── Registro_Deficiencias.xlsx
+│
+├── 05_TERMOGRAFIA/
+│   └── Registro_Termografia.xlsx
+│
+├── 06_EFECTO_CORONA/
+│   └── Registro_Efecto_Corona.xlsx
+│
+├── 07_PODAS/
+│   └── Registro_Podas.xlsx
+│
+├── 08_MANTENIMIENTO/
+│   └── Registro_Mantenimiento.xlsx
+│
+├── 09_DMS/
+│   ├── Registro_DMS.xlsx
+│   ├── Levantamiento_DMS.xlsx
+│   └── Inspecciones_Cierre_DMS.xlsx
+│
+├── 10_EVIDENCIAS/
+│   ├── LINEA_CODIGO/
+│   │   └── ESTRUCTURA_CODIGO/
+│   │       └── ACTIVIDAD/
+│
+├── 11_AUDITORIA/
+│   └── Historial_Modificaciones.xlsx
+│
+└── 12_REPORTES/
+    └── Reportes_Generados/
+
+Esta estructura es una propuesta inicial. El administrador debe poder configurar los archivos y carpetas utilizados por el sistema.
+
+No asumir que las carpetas existen. Crear un procedimiento de configuración inicial que permita seleccionarlas o crearlas en Google Drive.
+
+## 4. ARCHIVO PRINCIPAL DE LÍNEAS DE SUBTRANSMISIÓN
+
+Utilizar como archivo principal de líneas la siguiente hoja de cálculo:
+
+https://docs.google.com/spreadsheets/d/1QSIdzdBvHzjauw6jKX8lMGQuurrlsQDSCI5jZCFHW5Y/edit?gid=0#gid=0
+
+ID del archivo:
+
+1QSIdzdBvHzjauw6jKX8lMGQuurrlsQDSCI5jZCFHW5Y
+
+La aplicación deberá conectarse a este archivo mediante Google Sheets API.
+
+No descargar manualmente el archivo cada vez que se utilice el sistema. La aplicación debe consultar y actualizar el documento en Google Drive mediante una integración autorizada.
+
+Si el archivo original es una hoja de cálculo nativa de Google, utilizar Google Sheets API para modificarlo. Si es un archivo XLSX almacenado en Drive, utilizar un mecanismo compatible con ese formato para leerlo y actualizarlo.
+
+No asumir que ambos formatos se pueden modificar mediante los mismos métodos de API.
+
+### Columnas existentes
+
+Conservar exactamente los nombres de las siguientes columnas:
+
+1. ID_LINEA
+2. COD_LINEA
+3. NOMBRE
+4. TIPO_SISTEMA
+5. NODO_SALIDA
+6. NODO_LLEGADA
+7. CELDA_SALIDA
+8. CELDA_LLEGADA
+
+Tratar todos los códigos como texto, aunque contengan únicamente números.
+
+Esto evitará que se pierdan ceros iniciales o que Excel modifique automáticamente los identificadores.
+
+### Formulario de líneas
+
+Crear una pantalla denominada "Líneas de subtransmisión".
+
+Debe incluir:
+- Tabla de líneas.
+- Buscador.
+- Filtros.
+- Botón Nuevo.
+- Botón Editar.
+- Botón Guardar.
+- Botón Cancelar.
+- Botón Desactivar o Eliminar, según los permisos.
+- Botón Actualizar desde Drive.
+- Botón Sincronizar.
+- Indicador de última sincronización.
+
+El formulario debe permitir registrar, consultar, modificar y desactivar líneas.
+
+Cuando se registre una línea:
+1. Validar los campos.
+2. Comprobar que COD_LINEA no esté duplicado.
+3. Guardar el registro en el archivo correspondiente de Google Drive.
+4. Registrar la operación en el historial de modificaciones.
+5. Actualizar la tabla de la página web.
+6. Mostrar un mensaje con el resultado.
+
+Cuando se edite una línea:
+1. Identificar el registro mediante COD_LINEA.
+2. Comprobar que el usuario tenga permiso.
+3. Actualizar los datos.
+4. Registrar los valores anteriores y nuevos.
+5. Actualizar el archivo de Google Drive.
+6. Actualizar la interfaz.
+
+Cuando se elimine una línea:
+- Verificar si existen estructuras o actividades relacionadas.
+- Evitar que la eliminación rompa el historial.
+- Preferir la desactivación lógica cuando existan registros dependientes.
+- Registrar la operación.
+
+## 5. SINCRONIZACIÓN CON GOOGLE DRIVE
+
+Implementar sincronización entre la página web y los archivos almacenados en Google Drive.
+
+La sincronización debe funcionar en ambos sentidos cuando el formato y las API utilizadas lo permitan.
+
+### Cambios realizados desde la web
+
+Cuando un usuario agregue, edite o desactive un registro:
+- Validar la operación en el servidor.
+- Actualizar el archivo oficial.
+- Registrar la auditoría.
+- Actualizar la interfaz.
+- Informar si la sincronización fue exitosa.
+
+### Cambios realizados directamente en Google Drive
+
+Cuando un administrador modifique un archivo directamente en Google Drive:
+- Detectar los cambios mediante un mecanismo de sincronización.
+- Leer las filas modificadas.
+- Actualizar la información que utiliza la aplicación.
+- Mantener las relaciones entre los registros.
+- Registrar el origen y la fecha de la sincronización.
+- Identificar los conflictos.
+
+### Automatización
+
+Implementar:
+- Sincronización al abrir un módulo cuando corresponda.
+- Botón de sincronización manual.
+- Sincronización automática periódica.
+- Registro de la última sincronización.
+- Gestión de errores.
+- Reintentos controlados.
+- Detección de duplicados.
+- Historial de sincronizaciones.
+
+Si se necesita detectar cambios externos, utilizar las notificaciones, activadores o tareas programadas que sean compatibles con el servicio configurado.
+
+No afirmar que la sincronización es instantánea si realmente funciona mediante consultas periódicas.
+
+### Protección contra conflictos
+
+Si dos usuarios modifican el mismo registro:
+- Detectar que el archivo o registro ha cambiado.
+- Evitar sobrescribir silenciosamente información.
+- Registrar el conflicto.
+- Mostrar los valores en conflicto a un usuario autorizado.
+- Permitir decidir qué modificación conservar.
+- Registrar la resolución en el historial.
+
+Utilizar COD_LINEA para relacionar las líneas con las estructuras y actividades, pero no depender exclusivamente de la posición de una fila de Excel, ya que las filas pueden ordenarse o desplazarse.
+
+## 6. GESTIÓN DE USUARIOS Y ROLES
+
+Crear un formulario de usuarios con los siguientes campos:
+- Nombres.
+- Apellidos.
+- Documento de identificación, si corresponde.
+- Correo electrónico.
+- Teléfono.
+- Nombre de usuario.
+- Rol.
+- Estado.
+- Supervisor responsable.
+- Líneas asignadas.
+- Fecha de creación.
+
+Crear tres roles principales:
+
+### Administrador
+
+Puede:
+- Gestionar usuarios.
+- Gestionar roles.
+- Configurar los archivos de Google Drive.
+- Gestionar líneas y estructuras.
+- Consultar todas las actividades.
+- Gestionar catálogos.
+- Consultar dashboards generales.
+- Generar reportes.
+- Consultar la auditoría.
+- Resolver conflictos de sincronización.
+
+### Supervisor
+
+Puede:
+- Iniciar sesión.
+- Consultar las líneas que tiene asignadas.
+- Seleccionar una línea.
+- Consultar sus estructuras.
+- Crear y administrar contratistas subordinados.
+- Asignar contratistas a líneas.
+- Revisar las actividades.
+- Consultar fotografías.
+- Gestionar DMS según sus permisos.
+- Asignar órdenes de servicio.
+- Revisar levantamientos.
+- Asignar inspecciones de cierre.
+- Generar reportes de sus líneas.
+
+### Contratista
+
+Puede:
+- Consultar las líneas y estructuras asignadas.
+- Registrar actividades autorizadas.
+- Registrar deficiencias.
+- Registrar termografía.
+- Registrar efecto corona.
+- Registrar podas.
+- Registrar mantenimiento.
+- Consultar DMS asignadas.
+- Registrar levantamientos de DMS.
+- Adjuntar evidencias fotográficas.
+- Consultar observaciones del supervisor.
+
+No puede:
+- Administrar usuarios.
+- Cambiar roles.
+- Consultar líneas no asignadas.
+- Modificar archivos de configuración.
+- Cerrar definitivamente una DMS sin autorización.
+
+### Almacenamiento de usuarios
+
+Los usuarios, roles y asignaciones se administrarán mediante el archivo Usuarios.xlsx o una estructura de hojas de cálculo equivalente almacenada en Google Drive.
+
+Sin embargo, no guardar contraseñas en texto plano en Excel.
+
+Implementar autenticación segura mediante un proveedor de identidad adecuado, por ejemplo Google Identity Services, o mediante un backend seguro con un sistema de autenticación apropiado.
+
+El archivo de usuarios podrá guardar el identificador del usuario, su rol, sus líneas asignadas y su estado, pero no contraseñas reutilizables.
+
+Validar los permisos en cada operación del servidor. Ocultar botones en la interfaz no es suficiente.
+
+## 7. MÓDULO DE ESTRUCTURAS
+
+Crear un formulario de estructuras relacionado con el código de línea.
+
+Campos:
+- ID_POSTE
+- COD_LINEA
+- POSTE_N
+- TIPO_ARMADO
+- POSTE_CANTIDAD
+- POSTE_MATERIAL
+- CRUCETA_MATERIAL
+- MENSULA_MATERIAL
+- RIOSTRA_O_AMARRE_MATERIAL
+- AISLADOR_MATERIAL
+- AISLADOR_CANT
+- AISLADOR_TIPO
+- CONDUCTOR_MATERIAL
+- CONDUCTOR_CALIBRE
+- CONDUCTOR_N_FASES
+
+Funciones:
+- Registrar.
+- Editar.
+- Consultar.
+- Importar desde Excel.
+- Buscar.
+- Filtrar por línea.
+- Consultar historial de actividades.
+
+Cada estructura debe relacionarse con una línea existente mediante COD_LINEA.
+
+Evitar estructuras duplicadas dentro de la misma línea.
+
+EN EL MOMENTO DE INGRESAR UNA NUEVA ESTRUCTURA ESTA SE REALIZARA A TRAVEX DE LA ACTIVIDAD MANTENIMIENTO Y TENDRA LA OPCION DE CAMBIAR ORDEN DE ESTRUCTURA DENTRO DE LA LINEA DE SUBTRANSMISION ESTO SI ELIMINA UNA ESTRUCTURA SE CORRERAN LAS DEMAS ESTRUCTURAS SE ACTUALIZARAN LOS POSTE_N DE LAS ESTRUCTURAS QUE PERTENECEN A UNA LINEA IGUALMENTE SI SE CREA UNA NUEVA ESTRUCTURA SE PODRA ELEGIR EL POSTE_N CORRESPONDIENTE Y SE ACTUALIZARAN LAS SIGUIENTES ESTRUCTURAS
+
+## 8. MÓDULO DE DEFICIENCIAS
+
+Crear un formulario con:
+- Código de línea.
+- Estructura.
+- Fecha de inspección.
+- Tipo de deficiencia.
+- Descripción.
+- Prioridad.
+- Evidencia fotográfica.
+- Observaciones.
+- Usuario responsable.
+- Estado.
+
+La prioridad debe incluir:
+- PRIORITARIO.
+
+PARA TIPO DE DEFICIENCIAS EN EL MOMENTO DEL REGISTRO SE DESPLIEGA UNA LISTA DESPLEGABLE CONLAS SIGUIENTES OPCIONES PARA LAS DEFICIENCIAS
+- Presencia de agujeros en la parte superior de los postes de madera tipo H.
+- Postes de madera requieren de instalación de refuerzos metálicos 
+- Estructura tipo H presenta fisuras en la parte inferior.
+- Dados de concreto que protegen la base de los postes tipo H, se encuentran quebrados
+- Se requiere embadurnar estructura de celosía
+- Refuerzos metálicos instalados en la parte superior de los postes de madera presentan corrosión.
+- Presencia de agujeros en las crucetas de madera. Sellar y reforzar las crucetas con rieles metálicos
+- Presencia de agujeros de consideración en las crucetas de madera. Se deben de cambiar las crucetas.
+- Refuerzos metálicos instalados en las crucetas de madera presentan corrosión.
+- Presencia de agujeros en las riostras de madera tipo X.
+- Riostras de madera tipo X presentan agujeros de consideración. Se deben de cambiar.
+- Riostras metálicas en postes tipo H presentan corrosión.
+- Se recomienda cambiar las varillas de retenidas en las estructuras que cumplen la función de ángulo o tipo vértice
+- Se observa cables de retenidas destemplados.
+- Se observa presencia de maleza que ha trepado por los cables de las retenidas hasta la parte superior de las estructuras.
+- Cables de PAT cortados en la parte superior de los postes y crucetas de madera
+- Se observan cables PAT corroídos y/o cortados en la parte inferior de las estructuras de madera. También se observan conexiones que no garantizan un buen funcionamiento del sistema de aterramiento. Se deben de mejorar las conexiones utilizando conectores adecuados.
+- Se observa presencia de ramas de platanales cerca de los conductores. Se requiere podar a la brevedad. Nivel de criticidad medio
+- Se observan cometas atrapadas en los aisladores de las estructuras.
+- Bastidores metálicos instalados sobre las crucetas de madera, se encuentran mal instalados y propensos a caer sobre los conductores de aluminio.
+- Se observa recorte de terreno cerca de las bases de las estructuras tipo H.
+- Muretes de señalización de riesgo eléctrico se encuentran en mal estado. Presentan fisuras y corrosión.
+- Carteles de código de línea y número de estructura, se encuentran borrosos. 
+- Falta resanar entrada de los cables de puesta a tierra en las lozas de concreto. Se observa que se ha tenido que picar parte de la loza de concreto para conectar y/o tender los cables de puesta a tierra
+- Presencia de basurales cerca de la estructura de madera 
+- Carteles de señalizaciones se encuentran amarrados con alambre en la estructura
+- Predios no cumplen con DMS e invaden la F.S.
+- Estructuras de madera tipo H se ubican dentro de terrenos de sembríos o zonas húmedas
+
+Estados sugeridos:
+- Registrada.
+- Pendiente de revisión.
+- En atención.
+- Corregida.
+- Pendiente de verificación.
+- Cerrada.
+- Rechazada para corrección.
+
+La evidencia fotográfica será obligatoria.
+
+El sistema debe exigir una fotografía nueva o un enlace válido a una evidencia autorizada cuando se registre o modifique una actividad que requiera fotografías.
+
+## 9. MÓDULO DE TERMOGRAFÍA
+
+Crear un formulario con:
+- ID_TERMOGRAFIA
+- ID_POSTE
+- POSTE_N
+- TIPO_ARMADO
+- CONDUCTOR_CALIBRE
+- CONDUCTOR_N_FASES
+- NIVEL DE TENSIÓN
+- TIPO DE ZONA
+- TEMPERATURA_AMBIENTE
+- TEMPERATURA_MAX_COMPONENTE
+- EMISIVIDAD
+- HORA
+- FECHA
+- COMPONENTE DE FALLA
+- COMENTARIO
+
+Permitir:
+- Registrar inspecciones.
+- Editar registros autorizados.
+- Consultar por línea.
+- Consultar por estructura.
+- Filtrar por fecha.
+- Comparar mediciones.
+- Exportar reportes a Excel o PDF.
+
+Mostrar claramente las unidades de las mediciones.
+
+## 10. MÓDULO DE EFECTO CORONA
+
+Crear un formulario con:
+- ID_CORONA
+- TEMP_(°)
+- HUMEDAD_(%)
+- FASE_R_GANANCIA_(CALIBRACIÓN_DEL_LENTE)
+- FASE_R_CONTEO_(FOTON_MINUTO)
+- FASE_S_GANANCIA_(CALIBRACIÓN_DEL_LENTE)
+- FASE_S_CONTEO_(FOTON_MINUTO)
+- FASE_T_GANANCIA_(CALIBRACIÓN_DEL_LENTE)
+- FASE_T_CONTEO_(FOTON_MINUTO)
+- FECHA
+- HORA
+- COMENTARIOS
+
+El campo de situaciones debe permitir seleccionar una o varias opciones.
+
+Las situaciones disponibles se administrarán mediante un catálogo editable.
+
+La evidencia fotográfica será obligatoria.
+
+Permitir consultar reportes por línea, estructura, situación y fecha.
+
+## 11. MÓDULO DE PODAS
+
+Crear un formulario con:
+- COD_LINEA
+- POSTE N°
+- TIPO DE ARMADO
+- TIPO_AISLADOR
+- NIVEL_TENSION_KV
+
+- Línea.
+- Estructura.
+- Fecha de ejecución.
+- UBICACION / REFERENCIA
+- PUNTO INICIAL (Suministro)
+- PUNTO FINAL (Suministro)
+- ALGARROBO "TIPO DE DATO ENTERO"
+- PALMERA "TIPO DE DATO ENTERO"
+- ORNAMENTAL "TIPO DE DATO ENTERO"
+- TAMARINDO "TIPO DE DATO ENTERO"
+- PONCEANA "TIPO DE DATO ENTERO"
+- OTROS "TIPO DE DATO ENTERO"
+- OBSERVACIONES
+- Fotografías.
+- Contratista responsable.
+- Estado.
+
+Permitir registrar varias actividades de poda en una misma estructura.
+
+Generar reportes por línea, estructura, contratista y periodo.
+
+## 12. MÓDULO DE MANTENIMIENTO
+
+Crear un formulario con:
+- Línea.
+- Estructura.
+- Fecha de ejecución.
+- Tipo de mantenimiento.
+- Actividad realizada.
+- Número de orden de mantenimiento.
+- Observaciones.
+- Fotografías.
+- Contratista responsable.
+- Estado.
+
+Permitir consultar el historial de mantenimiento por estructura.
+
+Aplicar las reglas de evidencia fotográfica que establezca el administrador.
+
+## 13. MÓDULO DE DMS
+
+Permitir importar DMS mediante archivos Excel almacenados localmente o seleccionados desde Google Drive.
+
+Campos mínimos:
+- Código de línea.
+- Número de estructura o punto.
+- Código de DMS, si existe.
+- Descripción.
+- Fecha de identificación.
+- Prioridad, cuando corresponda.
+- Fuente.
+- Orden de servicio asociada.
+- Estado.
+- Observaciones.
+
+El formato de importación debe poder adaptarse al detalle enviado por OSINERGMIN.
+
+No asumir que todos los archivos tendrán los mismos encabezados.
+
+Crear un asistente de importación que permita:
+1. Seleccionar el archivo.
+2. Leer los encabezados.
+3. Relacionar columnas.
+4. Previsualizar los datos.
+5. Validar los códigos de línea.
+6. Detectar duplicados.
+7. Mostrar errores.
+8. Confirmar la importación.
+9. Guardar los registros en el archivo oficial de DMS.
+10. Registrar el archivo de origen.
+11. Mostrar un resumen de resultados.
+12. Generar un archivo de errores.
+
+La importación debe conservar las relaciones entre líneas, estructuras y DMS.
+
+## 14. LEVANTAMIENTO DE DMS
+
+Crear un formulario con:
+- DMS asociada.
+- Código de línea.
+- Estructura.
+- Fecha de ejecución.
+- Descripción del trabajo realizado.
+- Número de orden de servicio.
+- Fotografías.
+- Observaciones.
+- Contratista responsable.
+- Estado.
+
+La contratista podrá registrar el levantamiento, pero no cerrar definitivamente la DMS sin la inspección autorizada.
+
+## 15. INSPECCIÓN Y CIERRE DE DMS
+
+Crear un formulario con:
+- DMS.
+- Línea.
+- Estructura.
+- Fecha de inspección.
+- Inspector.
+- Resultado.
+- Observaciones.
+- Evidencias fotográficas, cuando corresponda.
+- Estado final.
+
+Resultados:
+- Levantamiento conforme.
+- Levantamiento no conforme.
+- Requiere nueva intervención.
+
+Si el resultado es conforme, permitir cerrar la DMS según los permisos establecidos.
+
+Si no es conforme, mantenerla abierta y registrar las observaciones.
+
+Conservar todo el historial de inspecciones y levantamientos.
+
+## 16. EVIDENCIAS FOTOGRÁFICAS EN GOOGLE DRIVE
+
+Las fotografías deben almacenarse en Google Drive.
+
+Organizar las carpetas por:
+- Código de línea.
+- Estructura.
+- Tipo de actividad.
+- Fecha o identificador de registro.
+
+Guardar en el archivo de cada actividad:
+- Identificador de evidencia.
+- Identificador de actividad.
+- Código de línea.
+- Estructura.
+- Identificador del archivo de Drive.
+- Enlace de acceso.
+- Fecha de registro.
+- Usuario responsable.
+- Descripción de la evidencia.
+
+El sistema debe permitir:
+- Subir fotografías.
+- Visualizarlas.
+- Abrirlas en Drive.
+- Adjuntar varias fotografías.
+- Consultar evidencias anteriores.
+- Distinguir fotografías previas y posteriores a una intervención.
+
+Utilizar Google Drive API para gestionar los archivos.
+
+No convertir automáticamente las fotografías en archivos públicos.
+
+Validar los permisos de acceso y mostrar errores cuando un archivo no pueda abrirse.
+
+## 17. DASHBOARD
+
+Crear un dashboard con filtros por:
+- Línea.
+- Periodo.
+- Estructura.
+- Contratista.
+- Tipo de actividad.
+- Prioridad.
+- Estado.
+
+Mostrar:
+- Total de líneas.
+- Total de estructuras.
+- Deficiencias por prioridad.
+- Deficiencias pendientes y corregidas.
+- Inspecciones termográficas.
+- Inspecciones de efecto corona.
+- Podas realizadas.
+- Mantenimientos realizados.
+- DMS registradas.
+- DMS pendientes.
+- DMS levantadas.
+- DMS pendientes de inspección.
+- DMS cerradas.
+- Actividades por contratista.
+- Actividades por estructura.
+- Cumplimiento de actividades.
+- Registros sin evidencia.
+- Estado de sincronización con Google Drive.
+
+Los indicadores se calcularán leyendo los archivos oficiales almacenados en Drive.
+
+Utilizar Chart.js.
+
+No escribir valores fijos en los gráficos.
+
+## 18. REPORTES
+
+Crear reportes de:
+1. Deficiencias.
+2. Termografía.
+3. Efecto corona.
+4. Podas.
+5. Mantenimiento.
+6. DMS.
+7. Levantamiento de DMS.
+8. Inspecciones de cierre.
+9. Actividades por contratista.
+10. Historial por estructura.
+11. Actividades por línea.
+12. Auditoría.
+13. Sincronización.
+14. Evidencias faltantes.
+
+Permitir filtrar, consultar e imprimir los resultados.
+
+Permitir exportar reportes a Excel y PDF.
+
+Incluir el código de línea, estructura, fecha, usuario, estado y enlaces a las evidencias cuando corresponda.
+
+## 19. AUDITORÍA
+
+Crear un archivo Historial_Modificaciones.xlsx en Google Drive.
+
+Registrar:
+- Usuario.
+- Rol.
+- Fecha.
+- Hora.
+- Acción.
+- Módulo.
+- Identificador del registro.
+- Código de línea.
+- Estructura.
+- Valores anteriores.
+- Valores nuevos.
+- Origen del cambio.
+- Resultado.
+- Identificador de sincronización.
+
+Registrar las operaciones importantes:
+- Creación y modificación de líneas.
+- Modificación de estructuras.
+- Creación y edición de actividades.
+- Registro de fotografías.
+- Importaciones de Excel.
+- Cambios de usuarios.
+- Asignaciones de líneas.
+- Levantamientos y cierres de DMS.
+- Sincronizaciones.
+- Conflictos y errores.
+
+La auditoría debe ser generada por el servidor y no depender del navegador para determinar el usuario o la hora oficial de la operación.
+
+Usar la zona horaria America/Lima.
+
+Los usuarios normales no deben poder editar ni eliminar la auditoría.
+
+## 20. SEGURIDAD
+
+Implementar:
+- Autenticación segura.
+- Autorización por rol.
+- Protección de credenciales.
+- Validación en el servidor.
+- Protección contra CSRF cuando corresponda.
+- Protección contra XSS.
+- Restricción de acceso a archivos.
+- Control de sesiones.
+- Registro de errores.
+- Control de acceso a Google Drive.
+- Validación de archivos cargados.
+- Restricción de tamaño y formato de fotografías.
+- Verificación de permisos antes de modificar documentos.
+
+Nunca guardar contraseñas en texto plano dentro de archivos Excel.
+
+Nunca colocar secretos de OAuth, tokens de actualización o claves privadas en archivos JavaScript accesibles públicamente.
+
+Toda operación que requiera credenciales privilegiadas de Google debe ejecutarse en un entorno de servidor confiable, como Google Apps Script configurado de forma segura o un backend compatible con el alojamiento elegido.
+
+## 21. ESTRUCTURA DEL PROYECTO
+
+Organizar el proyecto, por ejemplo, de la siguiente manera:
+
+sistema-subtransmision/
+│
+├── index.html
+├── login.html
+├── dashboard.html
+│
+├── assets/
+│   ├── css/
+│   │   └── estilos.css
+│   ├── js/
+│   │   ├── app.js
+│   │   ├── auth.js
+│   │   ├── lineas.js
+│   │   ├── estructuras.js
+│   │   ├── deficiencias.js
+│   │   ├── termografia.js
+│   │   ├── efecto-corona.js
+│   │   ├── podas.js
+│   │   ├── mantenimiento.js
+│   │   ├── dms.js
+│   │   ├── reportes.js
+│   │   └── dashboard.js
+│   └── img/
+│
+├── services/
+│   ├── google-sheets.js
+│   ├── google-drive.js
+│   ├── sincronizacion.js
+│   └── auditoria.js
+│
+├── config/
+│   └── configuracion.example.js
+│
+├── docs/
+│   ├── instalacion.md
+│   ├── google-api.md
+│   └── estructura-archivos.md
+│
+├── apps-script/
+│   └── CódigoServidor.gs
+│
+└── README.md
+
+Puedes mejorar esta estructura si es necesario.
+
+No incluir credenciales reales en el código.
+
+Si se utiliza Google Apps Script como backend, entregar también su código completo y las instrucciones para desplegarlo.
+
+Si se utiliza otro backend, explicar cómo ejecutarlo y dónde alojarlo.
+
+## 22. INSTALACIÓN Y PUESTA EN MARCHA
+
+Documentar cómo:
+1. Abrir el proyecto en Visual Studio Code.
+2. Configurar el proyecto de Google Cloud.
+3. Habilitar Google Sheets API.
+4. Habilitar Google Drive API.
+5. Configurar la autenticación.
+6. Autorizar el acceso al archivo de líneas.
+7. Configurar las carpetas de Drive.
+8. Configurar los archivos Excel.
+9. Desplegar el backend.
+10. Ejecutar la aplicación web.
+11. Crear el primer administrador de forma segura.
+12. Probar los formularios.
+13. Probar las operaciones de lectura y escritura.
+14. Comprobar la sincronización.
+15. Probar los reportes.
+16. Revisar el historial de modificaciones.
+
+Explicar si la aplicación puede ejecutarse como sitio estático o si necesita un backend.
+
+No afirmar que basta con abrir index.html si la integración con Google requiere un servicio de servidor.
+
+## 23. CRITERIOS DE ACEPTACIÓN
+
+El sistema estará listo cuando:
+- Se pueda iniciar sesión.
+- Los usuarios tengan permisos según su rol.
+- El supervisor pueda consultar las líneas asignadas.
+- El contratista pueda registrar las actividades autorizadas.
+- Las líneas se consulten desde el archivo de Google Sheets indicado.
+- Se puedan agregar, editar y desactivar líneas.
+- Los cambios se guarden en el archivo oficial de Drive.
+- Los cambios externos se detecten mediante el mecanismo de sincronización configurado.
+- Se puedan consultar estructuras por código de línea.
+- Las actividades se relacionen correctamente con líneas y estructuras.
+- Se exija evidencia fotográfica en las actividades que lo requieran.
+- Se puedan importar DMS desde Excel.
+- Se pueda registrar y verificar el levantamiento de DMS.
+- Se generen reportes y dashboards con datos reales.
+- Las modificaciones queden registradas en la auditoría.
+- No se utilice MySQL, MariaDB ni XAMPP.
+- El sistema pueda desarrollarse desde Visual Studio Code y desplegarse siguiendo la documentación.
+
+## 24. INSTRUCCIÓN FINAL
+
+Desarrolla el sistema utilizando Visual Studio Code y archivos de Excel o Google Sheets alojados en Google Drive como almacenamiento de los registros.
+
+No utilices MySQL, MariaDB, XAMPP ni bases de datos SQL.
+
+Comienza por la arquitectura, la integración con Google y el módulo de líneas.
+
+Después desarrolla las estructuras, usuarios, contratistas, actividades, evidencias, DMS, reportes y dashboards.
+
+Entrega los archivos completos, el código del backend si es necesario, la configuración de Google y las instrucciones de instalación.
+
+No simules operaciones que no estén implementadas.
+
+Si un archivo de Drive no está autorizado o una API no está configurada, informa el error y explica cómo resolverlo.
+
+Verifica las operaciones de lectura, escritura, sincronización y auditoría antes de considerar terminado el proyecto.

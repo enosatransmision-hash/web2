@@ -1,0 +1,1088 @@
+ID_POSTE	COD_LINEA	POSTE_N   	TIPO_ARMADO 	POSTE_CANTIDAD	POSTE _MATERIAL	CRUCETA_MATERIAL	MENSULA_MATERIAL	RIOSTRA_O_AMARRE_MATERIAL	AISLADOR_MATERIAL	AISLADOR_CANT	AISLADOR_TIPO	CONDUCTOR_MATERIAL	CONDUCTOR_CALIBRE	CONDUCTOR_N_FASES
+1	L-6665A	1	AD	2	madera	Madera y met�lica		madera	polim�rico	12		AAAC	240	3
+2	L-6665A	2	CD	3	madera				polim�rico	6		AAAC	240	3
+3	L-6665A	3	CD	3	madera	madera			polim�rico	6		AAAC	240	3
+4	L-6665A	4	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+5	L-6665A	5	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+6	L-6665A	6	CD	3	madera	madera			polim�rico	6		AAAC	240	3
+7	L-6665A	7	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+8	L-6665A	8	A	2	madera	madera		met�lica	polim�rico			AAAC	240	3
+9	L-6665A	9	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+10	L-6665A	10	CD	3	madera	madera			polim�rico	6		AAAC	240	3
+11	L-6665A	11	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+12	L-6665A	12	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+13	L-6665A	13	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+14	L-6665A	14	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+15	L-6665A	15	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+16	L-6665A	16	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+17	L-6665A	17	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+18	L-6665A	18	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+19	L-6665A	19	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+20	L-6665A	20	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+21	L-6665A	21	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+22	L-6665A	22	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+23	L-6665A	23	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+24	L-6665A	24	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+25	L-6665A	25	AD	2	madera	madera		met�lica	polim�rico	6		AAAC	240	3
+26	L-6665A	26	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+27	L-6665A	27	CD	3	madera	madera			polim�rico	6		AAAC	240	3
+28	L-6665A	28	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+29	L-6665A	29	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+30	L-6665A	30	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+31	L-6665A	31	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+32	L-6665A	32	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+33	L-6665A	33	CD	3	madera	madera		met�lica	polim�rico	12		AAAC	240	3
+34	L-6665A	34	A	2	fibra de vidrio	met�lica			polim�rico			AAAC	240	3
+35	L-6665A	35	A	2	fibra de vidrio	met�lica			polim�rico			AAAC	240	3
+36	L-6665A	36	A1	1	celos�a				polim�rico			AAAC	240	3
+37	L-6665A	37	CD	3	madera	madera		madera	polim�rico	6		AAAC	240	3
+38	L-6665A	38	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+39	L-6665A	39	AD	2	madera	madera		madera	polim�rico			AAAC	240	3
+40	L-6665A	40	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+41	L-6665A	41	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+42	L-6665A	42	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+43	L-6665A	43	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+44	L-6665A	44	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+45	L-6665A	45	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+46	L-6665A	46	CD	3	madera	madera		madera	polim�rico	6		AAAC	240	3
+47	L-6665A	47	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+48	L-6665A	48	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+49	L-6665A	49	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+50	L-6665A	50	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+51	L-6665A	51	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+52	L-6665A	52	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+53	L-6665A	53	CD	3	madera	madera			polim�rico	6		AAAC	240	3
+54	L-6665A	54	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+55	L-6665A	55	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+56	L-6665A	56	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+57	L-6665A	57	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+58	L-6665A	58	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+59	L-6665A	59	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+60	L-6665A	60	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+61	L-6665A	61	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+62	L-6665A	62	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+63	L-6665A	63	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+64	L-6665A	64	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+65	L-6665A	65	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+66	L-6665A	66	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+67	L-6665A	67	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+68	L-6665A	68	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+69	L-6665A	69	AD	2	madera	madera		madera	polim�rico	6		AAAC	240	3
+70	L-6665A	70	CD	3	madera	madera			polim�rico	6		AAAC	240	3
+71	L-6665A	71	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+72	L-6665A	72	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+73	L-6665A	73	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+74	L-6665A	74	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+75	L-6665A	75	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+76	L-6665A	76	A	2	madera	madera		madera	polim�rico			AAAC	240	3
+77	L-6665A	77	CD	3	madera	madera			polim�rico	6		AAAC	240	3
+78	L-129	1	P�rtico recloser	1	madera	madera			polim�rico	6		AAAC	95	3
+79	L-129	2	A2	1	madera	madera			polim�rico	6		AAAC	95	3
+80	L-129	3	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+81	L-129	4	A	1	madera	madera			polim�rico			AAAC	95	3
+82	L-129	5	A	1	madera	madera			polim�rico			AAAC	95	3
+83	L-129	6	A	1	madera	madera			polim�rico			AAAC	95	3
+84	L-129	7	A	1	madera	madera			polim�rico			AAAC	95	3
+85	L-129	8	A1	1	madera				polim�rico			AAAC	95	3
+86	L-129	9	A4	1	madera				polim�rico	9		AAAC	95	3
+87	L-129	10	A1	1	madera				polim�rico			AAAC	95	3
+88	L-129	11	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+89	L-129	12	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+90	L-129	13	A	1	madera	madera			polim�rico			AAAC	95	3
+91	L-129	14	A2	1	madera				polim�rico	6		AAAC	95	3
+92	L-129	15	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+93	L-129	16	A	1	madera	madera			polim�rico			AAAC	95	3
+94	L-129	17	A	1	madera	madera			polim�rico			AAAC	95	3
+95	L-129	18	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+96	L-129	19	A	1	madera	madera			polim�rico			AAAC	95	3
+97	L-129	20	A	1	madera	madera			polim�rico			AAAC	95	3
+98	L-129	21	A + Derivaci�n	1	madera	madera			polim�rico	3		AAAC	95	3
+99	L-129	22	A	1	madera	madera			polim�rico			AAAC	95	3
+100	L-129	23	A	1	madera	madera			polim�rico			AAAC	95	3
+101	L-129	24	A	1	madera	madera			polim�rico			AAAC	95	3
+102	L-129	25	A	1	madera	madera			polim�rico			AAAC	95	3
+103	L-129	26	A	1	madera	madera			polim�rico			AAAC	95	3
+104	L-129	27	A	1	madera	madera			polim�rico			AAAC	95	3
+105	L-129	28	A	1	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+106	L-129	29	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+107	L-129	30	A + Derivaci�n	1	madera	madera			polim�rico	3		AAAC	95	3
+108	L-129	31	A4	1	madera				polim�rico	9		AAAC	95	3
+109	L-129	32	A	1	madera	madera			polim�rico			AAAC	95	3
+110	L-129	33	A	1	madera	madera			polim�rico			AAAC	95	3
+111	L-129	34	A	1	madera	madera			polim�rico			AAAC	95	3
+112	L-129	35	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+113	L-129	36	AD	1	madera	met�lica		met�lica	polim�rico	6		AAAC	95	3
+114	L-129	37	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+115	L-129	38	A	1	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+116	L-129	39	A2	1	madera	madera			polim�rico	6		AAAC	95	3
+117	L-129	40	A	1	madera	madera			polim�rico			AAAC	95	3
+118	L-129	41	A	1	madera	madera			polim�rico			AAAC	95	3
+119	L-129	42	A	1	madera	madera		met�licas	polim�rico			AAAC	95	3
+120	L-129	43	A	1	madera	madera			polim�rico			AAAC	95	3
+121	L-129	44	A	1	madera	madera			polim�rico			AAAC	95	3
+122	L-129	45	A1	1	madera				polim�rico			AAAC	95	3
+123	L-129	46	A1	1	madera				polim�rico			AAAC	95	3
+124	L-129	47	A	1	madera	madera			polim�rico			AAAC	95	3
+125	L-129	48	A1	1	madera				polim�rico			AAAC	95	3
+126	L-129	49	A	1	madera				polim�rico			AAAC	95	3
+127	L-129	50	A	1	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+128	L-129	51	AD	2	madera	madera			polim�rico	6		AAAC	95	3
+129	L-129	52	A	1	madera	madera			polim�rico			AAAC	95	3
+130	L-129	53	A	1	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+131	L-129	54	A	1	madera	madera		met�lica	polim�rico			AAAC	95	3
+132	L-129	55	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+133	L-129	56	A1	1	madera				polim�rico			AAAC	95	3
+134	L-129	57	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+135	L-129	58	A1	1	madera				polim�rico			AAAC	95	3
+136	L-129	59	A	1	madera				polim�rico			AAAC	95	3
+137	L-129	60	A	1	madera	madera			polim�rico			AAAC	95	3
+138	L-129	61	A	1	madera	madera			polim�rico			AAAC	95	3
+139	L-129	62	A	2	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+140	L-129	63	A	1	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+141	L-129	64	A	1	madera	madera			polim�rico			AAAC	95	3
+142	L-129	65	A	1	madera	madera			polim�rico			AAAC	95	3
+143	L-129	66	A	1	madera	madera			polim�rico			AAAC	95	3
+144	L-129	67	A2	1	madera				polim�rico	6		AAAC	95	3
+145	L-129	68	AD	1	madera	madera			polim�rico			AAAC	95	3
+146	L-129	69	A	1	madera	madera			polim�rico			AAAC	95	3
+147	L-129	70	A	1	madera	madera			polim�rico			AAAC	95	3
+148	L-129	71	A	1	madera	madera			polim�rico			AAAC	95	3
+149	L-129	72	A2	1	madera	madera			polim�rico			AAAC	95	3
+150	L-129	73	A	1	madera	madera			polim�rico			AAAC	95	3
+151	L-129	74	A1	1	madera	madera			polim�rico			AAAC	95	3
+152	L-129	75	A2	1	madera	madera			polim�rico	6		AAAC	95	3
+153	L-129	76	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+154	L-129	77	AD	2	madera	madera			polim�rico	6		AAAC	95	3
+155	L-128	1	A4	1	madera				polim�rico	12		AAAC	95	3
+156	L-128	2	p�rtico recloser	2	madera	madera			polim�rico	6		AAAC	95	3
+157	L-128	3	A2	1	madera				polim�rico	6		AAAC	95	3
+158	L-128	4	A	1	madera	madera			polim�rico			AAAC	95	3
+159	L-128	5	A	1	madera	madera			polim�rico			AAAC	95	3
+160	L-128	6	A2	1	FV.				polim�rico	6		AAAC	95	3
+161	L-128	7	A	1	madera	madera			polim�rico			AAAC	95	3
+162	L-128	8	A	1	madera	madera			polim�rico			AAAC	95	3
+163	L-128	9	A1	1	madera				polim�rico			AAAC	95	3
+164	L-128	10	A	1	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+165	L-128	11	A	1	madera	madera			polim�rico			AAAC	95	3
+166	L-128	12	A1	1	madera				polim�rico			AAAC	95	3
+167	L-128	13	A	1	madera	madera			polim�rico			AAAC	95	3
+168	L-128	14	A	1	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+169	L-128	15	A	1	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+170	L-128	16	A	1	madera	madera			polim�rico			AAAC	95	3
+171	L-128	17	A	1	madera	madera			polim�rico			AAAC	95	3
+172	L-128	18	A	1	madera	madera			polim�rico			AAAC	95	3
+173	L-128	19	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+174	L-128	20	A	1	madera	madera			polim�rico			AAAC	95	3
+175	L-128	21	A	1	madera	madera			polim�rico			AAAC	95	3
+176	L-128	22	A2	1	madera	madera			polim�rico	6		AAAC	95	3
+177	L-128	23	A	1	madera	madera			polim�rico			AAAC	95	3
+178	L-128	24	AD	1	madera	madera			polim�rico			AAAC	95	3
+179	L-128	25	AD	1	madera	madera			polim�rico			AAAC	95	3
+180	L-128	26	A	1	madera	madera			polim�rico			AAAC	95	3
+181	L-128	27	A	1	madera	madera			polim�rico			AAAC	95	3
+182	L-128	28	A	1	madera	madera			polim�rico			AAAC	95	3
+183	L-128	29	A	1	madera	madera		met�lica	polim�rico			AAAC	95	3
+184	L-128	30	A	1	madera	madera			polim�rico			AAAC	95	3
+185	L-128	31	A	1	madera	madera			polim�rico			AAAC	95	3
+186	L-128	32	A	1	madera	madera			polim�rico			AAAC	95	3
+187	L-128	33	A	1	madera	met�lica		met�lica	polim�rico			AAAC	95	3
+188	L-128	34	A	1	madera	madera		met�lica	polim�rico			AAAC	95	3
+189	L-128	35	A	1	madera	madera			polim�rico			AAAC	95	3
+190	L-128	36	A	1	madera	madera			polim�rico			AAAC	95	3
+191	L-128	37	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+192	L-128	38	AD	1	madera	met�lica		met�lica	polim�rico	6		AAAC	95	3
+193	L-128	39	A	1	madera	madera			polim�rico			AAAC	95	3
+194	L-128	40	A1	1	madera	madera			polim�rico			AAAC	95	3
+195	L-128	41	A	1	madera	madera			polim�rico			AAAC	95	3
+196	L-128	42	A	1	madera	madera			polim�rico			AAAC	95	3
+197	L-128	43	A	1	madera	madera		met�lica	polim�rico			AAAC	95	3
+198	L-128	44	A1	1	madera				polim�rico			AAAC	95	3
+199	L-128	45	A2	1	madera				polim�rico	6		AAAC	95	3
+200	L-128	46	AD	1	madera	madera			polim�rico	6		AAAC	95	3
+201	L-6766	1	AD	2	madera	madera		madera	polim�rico	12		AAAC	120 - 240	3
+202	L-6766	2	A	2	madera	madera		madera	polim�rico			AAAC	120 - 240	3
+203	L-6766	3	A	2	madera	madera		madera	polim�rico			AAAC	120 - 240	3
+204	L-6766	4	CD	3	madera	madera			polim�rico	12		AAAC	120 - 240	3
+205	L-6766	5	A	2	madera	madera		madera	polim�rico			AAAC	120 - 240	3
+206	L-6766	6	A	2	madera	madera		madera	polim�rico			AAAC	120 - 240	3
+207	L-6766	7	A	2	madera	madera		madera	polim�rico			AAAC	120 - 240	3
+208	L-6766	8	A	2	madera	madera		madera	polim�rico			AAAC	120 - 240	3
+209	L-6766	9	CD	3	madera	madera			polim�rico	12		AAAC	120 - 240	3
+210	L-6766	10	CD	3	madera	madera			polim�rico	12		AAAC	120 - 240	3
+211	L-6766	11	CD	6	madera	madera			polim�rico	12		AAAC	120 - 240	3
+212	L+6767	1	CD	3	madera	madera			polim�rico	6		AAAC	120	3
+213	L+6767	2	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+214	L+6767	3	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+215	L+6767	4	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+216	L+6767	5	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+217	L+6767	6	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+218	L+6767	7	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+219	L+6767	8	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+220	L+6767	9	AD	2	madera	madera		madera	polim�rico	6		AAAC	120	3
+221	L+6767	10	CD	3	madera	madera			polim�rico	6		AAAC	120	3
+222	L+6767	11	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+223	L+6767	12	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+224	L+6767	13	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+225	L+6767	14	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+226	L+6767	15	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+227	L+6767	16	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+228	L+6767	17	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+229	L+6767	18	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+230	L+6767	19	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+231	L+6767	20	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+232	L+6767	21	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+233	L+6767	22	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+234	L+6767	23	A	2	madera	met�lica		met�lica	polim�rico			AAAC	120	3
+235	L+6767	24	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+236	L+6767	25	CD	3	madera	madera			polim�rico	6		AAAC	120	3
+237	L+6767	26	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+238	L+6767	27	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+239	L+6767	28	A	2	madera	met�lica		met�lica	polim�rico			AAAC	120	3
+240	L+6767	29	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+241	L+6767	30	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+242	L+6767	31	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+243	L+6767	32	A	2	madera	madera		met�lica	polim�rico			AAAC	120	3
+244	L+6767	33	A	2	madera	madera		met�lica	polim�rico			AAAC	120	3
+245	L+6767	34	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+246	L+6767	35	AD	2	madera	madera		madera	polim�rico	6		AAAC	120	3
+247	L+6767	36	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+248	L+6767	37	A	2	madera	madera		met�lica	polim�rico			AAAC	120	3
+249	L+6767	38	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+250	L+6767	39	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+251	L+6767	40	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+252	L+6767	41	A	2	madera	madera		met�lica	polim�rico			AAAC	120	3
+253	L+6767	42	A	2	madera	madera		madera	polim�rico			AAAC	120	3
+254	L+6767	43	A	2	fibra	met�lica			polim�rico			AAAC	120	3
+255	L+6767	44	AD+CD	3	madera	madera			polim�rico	6		AAAC	120	3
+256	L+6767	45	CD	3	madera	madera			polim�rico	6		AAAC	120	3
+257	L-6657A	1	AD	2	CAC	Concreto		Polim�rico	bueno	bueno		buenos	bueno	3
+258	L-6657A	2	A	1	CAC	Concreto		Polim�rico					bueno	3
+259	L-6657A	3	A	1	CAC	Concreto		Polim�rico					bueno	3
+260	L-6657A	4	A	1	CAC	Concreto		Polim�rico					bueno	3
+261	L-6657A	5	A	1	CAC	Concreto		Polim�rico					bueno	3
+262	L-6657A	6	A	1	CAC			Polim�rico					bueno	3
+263	L-6657A	7	A	1	CAC			Polim�rico					bueno	3
+264	L-6657A	8	A	1	CAC	Concreto		Polim�rico					bueno	3
+265	L-6657A	9	AD	3	Madera			Polim�rico	bueno	bueno		buenos	bueno	3
+266	L-6657A	10	A	1	FV			Polim�rico					bueno	3
+267	L-6657A	11	A	1	Madera	Madera		Polim�rico					bueno	3
+268	L-6657A	12	A	1	Madera	madera		Polim�rico					bueno	3
+269	L-6657A	13	A	1	Madera	madera		Polim�rico					bueno	3
+270	L-6657A	14	A	1	Madera	madera		Polim�rico					bueno	3
+271	L-6657A	15	A	1	Madera	madera	F� G�	Polim�rico					bueno	3
+272	L-6657A	16	A	1	Madera	madera	F� G�	Polim�rico					bueno	3
+273	L-6657A	17	A	1	Madera	Madera		Polim�rico					bueno	3
+274	L-6657A	18	A	1	Madera	madera		Polim�rico					bueno	3
+275	L-6657A	19	A	1	CAC	Concreto		Polim�rico					bueno	3
+276	L-6657A	20	A	1	Madera	madera		Polim�rico					bueno	3
+277	L-6657A	21	A	1	Madera	madera		Polim�rico					bueno	3
+278	L-6657A	22	A	1	Madera	madera		Polim�rico					bueno	3
+279	L-6657A	23	A	1	Madera	madera		Polim�rico					bueno	3
+280	L-6657A	24	A	1	Madera	madera		Polim�rico					bueno	3
+281	L-6657A	25	AD	2	Madera	madera	Madera	Polim�rico	bueno	bueno		buenos	bueno	3
+282	L-6657A	26	A	1	Madera	madera		Polim�rico					bueno	3
+283	L-6657A	27	A	1	Madera	madera		Polim�rico					bueno	3
+284	L-6657A	28	A	1	Madera	madera		Polim�rico					bueno	3
+285	L-6657A	29	A	1	Madera	madera		Polim�rico					bueno	3
+286	L-6657A	30	A	1	Madera	madera		Polim�rico					bueno	3
+287	L-6657A	31	A	1	Madera	Madera		Polim�rico					bueno	3
+288	L-6657A	32	A	1	Madera	madera		Polim�rico					bueno	3
+289	L-6657A	33	A	1	Madera	madera		Polim�rico					bueno	3
+290	L-6657A	34	A	1	Madera	Madera		Polim�rico					bueno	3
+291	L-6657A	35	A	1	Madera	F� G�		Polim�rico					bueno	3
+292	L-6657A	36	A	1	Madera	madera		Polim�rico					bueno	3
+293	L-6657A	37	A	1	Madera	madera		Polim�rico					bueno	3
+294	L-6657A	38	A	1	Madera	Madera		Polim�rico					bueno	3
+295	L-6657A	39	A	1	Madera	madera		Polim�rico					bueno	3
+296	L-6657A	40	AD	3	Madera			Polim�rico	bueno	bueno		buenos	bueno	3
+297	L-6657A	41	A	1	Madera	madera		Polim�rico					bueno	3
+298	L-6657A	42	A	1	Madera	madera		Polim�rico					bueno	3
+299	L-6657A	43	A	1	Madera	madera		Polim�rico					bueno	3
+300	L-6657A	44	A	1	Madera	madera		Polim�rico					bueno	3
+301	L-6657A	45	A	1	Madera	madera		Polim�rico					bueno	3
+302	L-6657A	46	AD	2	Madera	madera	Madera	Polim�rico	bueno	bueno		buenos	bueno	3
+303	L-6657A	47	A	1	FV			Polim�rico					bueno	3
+304	L-6657A	48	A	1	Madera	Madera		Polim�rico					bueno	3
+305	L-6657A	49	AD	2	Madera	madera	Madera	Polim�rico	bueno	bueno		buenos	bueno	3
+306	L-6657A	50	AD	2	Madera	madera	Madera	Polim�rico	bueno	bueno		buenos	bueno	3
+307	L-6657C	1	AD	2	madera	madera	madera	polim�rico	bueno	bueno		buenos cuentan con cobertor	bueno	3
+308	L-6657C	2	A	1	madera	madera		polim�rico					bueno	3
+309	L-6657C	3	A	1	madera	madera		polim�rico					bueno	3
+310	L-6657C	4	A	1	madera	madera		polim�rico					bueno	3
+311	L-6657C	5	A	1	madera	madera		polim�rico					bueno	3
+312	L-6657C	6	A	1	madera	madera		polim�rico					bueno	3
+313	L-6657C	7	A	1	madera	madera		polim�rico					bueno	3
+314	L-6657C	8	A	1	madera	madera		polim�rico					bueno	3
+315	L-6657C	9	A	1	madera	met�lica		polim�rico					bueno	3
+316	L-6657C	10	A	1	madera	madera		polim�rico					bueno	3
+317	L-6657C	11	A	1	madera	met�lica		polim�rico					bueno	3
+318	L-6657C	12	A	1	madera	madera		polim�rico					bueno	3
+319	L-6657C	13	A	1	madera	madera		Polim�rico					bueno	3
+320	L-6657C	14	A	1	madera	madera		Polim�rico					bueno	3
+321	L-6657C	15	A	1	madera	madera		polim�rico					bueno	3
+322	L-6657C	16	AD	2	madera	madera	madera	polim�rico	bueno	bueno		buenos	bueno	3
+323	L-6657C	17	A	1	madera	madera		polim�rico					bueno	3
+324	L-6657C	18	A	1	madera	madera		polim�rico					bueno	3
+325	L-6657C	19	A	1	madera	madera		polim�rico					bueno	3
+326	L-6657C	20	A	1	madera	madera		polim�rico					bueno	3
+327	L-6657C	21	A	1	madera	madera		Polim�rico					bueno	3
+328	L-6657C	22	A	1	madera	madera		polim�rico					bueno	3
+329	L-6657C	23	A	1	madera	madera		polim�rico					bueno	3
+330	L-6657C	24	A	1	FV			polim�rico					bueno	3
+331	L-6657C	25	A	1	CAC	CAV		polim�rico					bueno	3
+332	L-6657C	26	A	1	CAC	CAV		polim�rico					bueno	3
+333	L-6657C	27	A	1	CAC	CAV		polim�rico					bueno	3
+334	L-6657C	28	A	1	CAC	CAV		polim�rico					bueno	3
+335	L-6657C	29	A	1	CAC	CAV		polim�rico					bueno	3
+336	L-6657C	30	A	1	CAC	CAV		polim�rico					bueno	3
+337	L-6657C	31	AD	2	madera	madera	madera	polim�rico	bueno	bueno		buenos	bueno	3
+338	L-6657C	32	A	1	madera	madera		polim�rico					bueno	3
+339	L-6657C	33	A	1	madera	madera		polim�rico					bueno	3
+340	L-6657C	34	A	1	madera	madera		polim�rico					bueno	3
+341	L-6657C	35	A	1	madera	madera		polim�rico					bueno	3
+342	L-6657C	36	A	1	madera	madera		polim�rico					bueno	3
+343	L-6657C	37	A	1	madera	madera		polim�rico					bueno	3
+344	L-6657C	38	A	1	madera	madera		polim�rico					bueno	3
+345	L-6657C	39	A	1	madera	madera		polim�rico					bueno	3
+346	L-6657C	40	A	1	madera	madera		polim�rico					bueno	3
+347	L-6657C	41	A	1	madera	madera		polim�rico					bueno	3
+348	L-6657C	42	A	1	madera	madera		polim�rico					bueno	3
+349	L-6657C	43	A	1	madera	madera		polim�rico					bueno	3
+350	L-6657C	44	A	1	madera	madera		polim�rico					bueno	3
+351	L-6657C	45	A	1	madera	madera		polim�rico					bueno	3
+352	L-6657C	46	AD	2	madera	madera	madera	polim�rico y porcelana	bueno	bueno		buenos	bueno	3
+353	L-6657C	47	A	1	CAC	CAV		polim�rico					bueno	3
+354	L-6657C	48	A	1	madera	madera		polim�rico					bueno	3
+355	L-6657C	49	A	1	madera	madera		polim�rico					bueno	3
+356	L-6657C	50	A	1	madera	madera		polim�rico					bueno	3
+357	L-6657C	51	A	1	madera	madera		polim�rico					bueno	3
+358	L-6657C	52	A	1	madera	madera		polim�rico					bueno	3
+359	L-6657C	53	A	1	FV			polim�rico					bueno	3
+360	L-6657C	54	A	1	madera	madera		polim�rico					bueno	3
+361	L-6657C	55	A	1	madera	madera		polim�rico					bueno	3
+362	L-6657C	56	A	1	madera	madera		polim�rico					bueno	3
+363	L-6657C	57	A	1	madera	madera		polim�rico					bueno	3
+364	L-6657C	58	A	1	madera	madera		polim�rico					bueno	3
+365	L-6657C	59	A	1	madera	madera		polim�rico					bueno	3
+366	L-6657C	60	AD	2	madera	madera	madera	porcelana	bueno	bueno		buenos	bueno	3
+367	L-6657C	61	A	1	madera	madera		polim�rico					bueno	3
+368	L-6657C	62	A	1	madera	madera		polim�rico					bueno	3
+369	L-6657C	63	A	1	CAC	CAV		polim�rico					bueno	3
+370	L-6657C	64	A	1	madera	madera		polim�rico					bueno	3
+371	L-6657C	65	A	1	madera	madera		polim�rico					bueno	3
+372	L-6657C	66	A	1	madera	madera		polim�rico					bueno	3
+373	L-6657C	67	A	1	madera	madera		polim�rico					bueno	3
+374	L-6657C	68	A	1	madera	madera		polim�rico					bueno	3
+375	L-6657C	69	A	1	madera	madera		polim�rico					bueno	3
+376	L-6657C	70	AD	2	madera	madera	madera	porcelana	bueno	bueno		cuellos cuentan con cobertor	bueno	3
+377	L-6657C	71	A	1	madera	madera		polim�rico					bueno	3
+378	L-6657C	72	A	1	madera	madera		polim�rico					bueno	3
+379	L-6657C	73	A	1	madera	madera		polim�rico					bueno	3
+380	L-6657C	74	A	1	madera	madera		porcelana					bueno	3
+381	L-6657C	75	A	1	madera	madera		porcelana					bueno	3
+382	L-6657C	76	A	1	madera	madera		porcelana					bueno	3
+383	L-6657C	77	A	1	madera	madera		porcelana					bueno	3
+384	L-6657C	78	A	1	madera	madera		polim�rico					bueno	3
+385	L-6657C	79	A	1	madera	madera		porcelana					bueno	3
+386	L-6657C	80	A	1	madera	madera		porcelana					bueno	3
+387	L-6657C	81	AD	2	madera	madera		porcelana	bueno	bueno		buenos	bueno	3
+388	L-6657C	82	A	1	madera	madera		porcelana					bueno	3
+389	L-6657C	83	A	1	madera	madera		porcelana					bueno	3
+390	L-6657C	84	A	1	madera	madera		porcelana					bueno	3
+391	L-6657C	85	A	1	madera	madera		porcelana					bueno	3
+392	L-6657C	86	A	1	madera	madera		porcelana					bueno	3
+393	L-6657C	87	A	1	madera	madera		porcelana					bueno	3
+394	L-6657C	88	A	1	madera	madera		porcelana					bueno	3
+395	L-6657C	89	A	1	madera	madera		porcelana					bueno	3
+396	L-6657C	90	A	1	madera	madera		porcelana					bueno	3
+397	L-6657C	91	A	1	madera	madera		polim�rico					bueno	3
+398	L-6657C	92	A	1	madera	madera		porcelana					bueno	3
+399	L-6657C	93	A	1	madera	madera		porcelana					bueno	3
+400	L-6657C	94	AD	2	madera	madera	madera	porcelana	bueno	bueno		buenos	bueno	3
+401	L-6657C	95	A	1	madera	madera		porcelana					bueno	3
+402	L-6657C	96	A	1	madera	madera		porcelana					bueno	3
+403	L-6657C	97	A	1	madera	madera		porcelana					bueno	3
+404	L-6657C	98	A	1	madera	madera		polim�rico					bueno	3
+405	L-6657C	99	A	1	madera	madera		porcelana					bueno	3
+406	L-6657C	100	A	1	madera	madera		porcelana					bueno	3
+407	L-6657C	101	A	1	madera	madera		porcelana					bueno	3
+408	L-6657C	102	A	1	madera	madera		porcelana					bueno	3
+409	L-6657C	103	A	1	madera	madera		porcelana					bueno	3
+410	L-6657C	104	A	1	madera	madera		porcelana					bueno	3
+411	L-6657C	105	AD	2	madera	madera	madera	polim�rico	bueno	bueno		buenos	bueno	3
+412	L-6657C	106	A	1	madera	madera		polim�rico					bueno	3
+413	L-6657C	107	A	1	madera	madera		polim�rico					bueno	3
+414	L-6657C	108	A	1	madera	madera		polim�rico					bueno	3
+415	L-6657C	109	A	1	madera	madera		polim�rico					bueno	3
+416	L-6657C	110	A	1	madera	madera		polim�rico					bueno	3
+417	L-6657C	111	A	1	madera	madera		polim�rico					bueno	3
+418	L-6657C	112	A	1	madera	madera		polim�rico					bueno	3
+419	L-6657C	113	A	1	madera	madera		polim�rico					bueno	3
+420	L-6657C	114	A	1	madera			polim�rico					bueno	3
+421	L-6657C	115	A	1	madera			polim�rico					bueno	3
+422	L-6657C	116	A	1	madera	madera		polim�rico					bueno	3
+423	L-6657C	117	A	1	madera	madera		polim�rico					bueno	3
+424	L-6657C	118	A	1	madera	madera		polim�rico					bueno	3
+425	L-6657C	119	A	1	madera	madera		polim�rico					bueno	3
+426	L-6657C	120	AD	2	madera	madera	madera	polim�rico	bueno	bueno		cuellos cuentan con cobertor	bueno	3
+427	L-6657C	121	A	1	madera	madera		polim�rico					bueno	3
+428	L-6657C	122	A	1	madera	madera		Polim�rico					bueno	3
+429	L-6657C	123	A	1	madera	madera		polim�rico					bueno	3
+430	L-6657C	124	A	1	madera	madera		polim�rico					bueno	3
+431	L-6657C	125	A	1	madera	madera		polim�rico					bueno	3
+432	L-6657C	126	A	1	madera	madera		polim�rico					bueno	3
+433	L-6657C	127	A	1	madera	madera		Polim�rico y porcelana					bueno	3
+434	L-6657C	128	A	1	madera	madera		porcelana					bueno	3
+435	L-6657C	129	AD	2	madera	madera	madera	polim�rico	bueno	bueno		cuellos cuentan con cobertor	bueno	3
+436	L-6657C	130	A	1	madera	madera		Polim�rico					bueno	3
+437	L-6657C	131	A	1	madera	madera		Polim�rico					bueno	3
+438	L-6657C	132	A	1	madera	met�lica	met�lica	porcelana					bueno	3
+439	L-6657C	133	A	1	madera	madera		porcelana					bueno	3
+440	L-6657C	134	A	1	madera	madera		Porcelana					bueno	3
+441	L-6657C	135	A	1	madera	madera		porcelana					bueno	3
+442	L-6657C	136	A	1	madera	madera		porcelana					bueno	3
+443	L-6657C	137	AD	2	madera	madera	met�licas	polim�rico y porcelana	bueno	bueno		buenos	bueno	3
+444	L-6657C	138	A	1	madera	madera		polim�rico y porcelana					bueno	3
+445	L-6657C	139	A	1	madera	madera		Polim�rico y porcelana					bueno	3
+446	L-6657C	140	A	1	madera	madera		polim�rico y porcelana					bueno	3
+447	L-6657C	141	A	1	madera	madera		polim�rico					bueno	3
+448	L-6657C	142	A	1	madera	madera		Polim�rico y porcelana					bueno	3
+449	L-6657C	143	A	1	madera	madera		polim�rico					bueno	3
+450	L-6657C	144	A	1	madera	madera		polim�rico					bueno	3
+451	L-6657C	145	A	1	madera	madera		polim�rico					bueno	3
+452	L-6657C	146	A	1	madera	madera		Polim�rico					bueno	3
+453	L-6657C	147	A	1	madera	madera		polim�rico					bueno	3
+454	L-6657C	148	A	1	madera	madera		polim�rico					bueno	3
+455	L-6657C	149	AD	2	madera	madera	madera	polim�rico	bueno	bueno		buenos	bueno	3
+456	L-6657C	150	A	1	madera	madera		polim�rico					bueno	3
+457	L-6657C	151	A	1	madera	madera		polim�rico					bueno	3
+458	L-6657C	152	A	1	madera	madera		polim�rico					bueno	3
+459	L-6657C	153	A	1	madera	madera		polim�rico					bueno	3
+460	L-6657C	154	A	1	madera	madera		Polim�rico y porcelana					bueno	3
+461	L-6657C	155	A	1	madera	madera		Polim�rico					bueno	3
+462	L-6657C	156	A	1	madera	madera		Polim�rico					bueno	3
+463	L-6657C	157	A	1	madera	madera		Polim�rico y porcelana					bueno	3
+464	L-6657C	158	A	1	madera	madera		polim�rico					bueno	3
+465	L-6657C	159	A	1	madera	madera		polim�rico					bueno	3
+466	L-6657C	160	A	1	madera	madera		polim�rico					bueno	3
+467	L-6657C	161	A	1	madera	madera		porcelana					bueno	3
+468	L-6657C	162	A	1	madera	madera		Polim�rico					bueno	3
+469	L-6657C	163	AD	2	madera	madera	madera	polim�rico y porcelana	bueno	bueno		buenos	bueno	3
+470	L-6657C	164	A	1	madera	madera		porcelana					bueno	3
+471	L-6657C	165	A	1	madera	madera		porcelana					bueno	3
+472	L-6657C	166	A	1	madera	madera		porcelana					bueno	3
+473	L-6657C	167	A	1	madera	madera		polim�rico y porcelana					bueno	3
+474	L-6657C	168	A	1	madera	madera		porcelana					bueno	3
+475	L-6657C	169	A	1	madera	madera		porcelana					bueno	3
+476	L-6657C	170	A	1	madera	madera		porcelana					bueno	3
+477	L-6657C	171	A	1	madera	madera		porcelana					bueno	3
+478	L-6657C	172	A	1	madera	madera		polim�rico					bueno	3
+479	L-6657C	173	A	1	madera	madera		polim�rico					bueno	3
+480	L-6657C	174	AD	2	madera	madera	madera	polim�rico y porcelana	bueno	bueno		buenos	bueno	3
+481	L-6657C	175	A	1	madera	madera		polim�rico					bueno	3
+482	L-6657C	176	A	1	madera	madera		polim�rico					bueno	3
+483	L-6657C	177	A	1	madera	madera		polim�rico					bueno	3
+484	L-6657C	178	A	1	madera	madera		polim�rico					bueno	3
+485	L-6657C	179	A	1	madera	madera		polim�rico					bueno	3
+486	L-6657C	180	A	1	madera	madera		polim�rico					bueno	3
+487	L-6657C	181	A	1	madera	madera		polim�rico y porcelana					bueno	3
+488	L-6657C	182	A	1	madera	madera		porcelana					bueno	3
+489	L-6657C	183	A	1	madera	madera		porcelana					bueno	3
+490	L-6657C	184	A	1	madera	madera		Polim�rico y porcelana					bueno	3
+491	L-6657C	185	A	1	madera	madera		porcelana					bueno	3
+492	L-6657C	186	A	1	madera	madera		porcelana					bueno	3
+493	L-6657C	187	A	1	madera	madera		porcelana					bueno	3
+494	L-6657C	188	A	1	madera	madera		porcelana					bueno	3
+495	L-6657C	189	A	1	madera	madera		porcelana					bueno	3
+496	L-6657C	190	AD	2	madera	madera	madera y met�lica	porcelana	bueno	bueno		buenos	bueno	3
+497	L-6657C	191	A	1	madera	madera		porcelana					bueno	3
+498	L-6657C	192	A	1	madera	madera		porcelana					bueno	3
+499	L-6657C	193	A	1	madera	madera		porcelana					bueno	3
+500	L-6657C	194	A	1	madera	madera		porcelana					bueno	3
+501	L-6657C	195	A	1	madera	madera		porcelana					bueno	3
+502	L-6657C	196	A	1	madera	madera		porcelana					bueno	3
+503	L-6657C	197	A	1	madera	madera		porcelana					bueno	3
+504	L-6657C	198	A	1	madera	madera		Porcelana					bueno	3
+505	L-6657C	199	A	1	madera	madera		polim�rico					bueno	3
+506	L-6657C	200	A	1	madera	madera		polim�rico					bueno	3
+507	L-6657C	201	A	1	madera	madera		polim�rico					bueno	3
+508	L-6657C	202	A	1	madera	madera		polim�rico					bueno	3
+509	L-6657C	203	A	1	madera	madera		polim�rico					bueno	3
+510	L-6657C	204	A	1	madera	madera		polim�rico					bueno	3
+511	L-6657C	205	AD	2	madera	met�lica	met�lica	polim�rico	bueno	bueno		buenos	bueno	3
+512	L-6657C	206	A	1	madera	madera		polim�rico					bueno	3
+513	L-6657C	207	A	1	madera	madera		polim�rico					bueno	3
+514	L-6657C	208	A	1	madera	madera		polim�rico					bueno	3
+515	L-6657C	209	A	1	madera	madera		polim�rico					bueno	3
+516	L-6657C	210	A	1	CAC	CAV		polim�rico y porcelana					bueno	3
+517	L-6657C	211	A	1	CAC	CAV		polim�rico					bueno	3
+518	L-6657C	212	A	1	CAC	CAV		polim�rico y porcelana					bueno	3
+519	L-6657C	213	A	1	CAC	CAV		polim�rico y porcelana					bueno	3
+520	L-6657C	214	A	1	CAC	CAV		polim�rico					bueno	3
+521	L-6657C	215	A	1	CAC	CAV		porcelana					bueno	3
+522	L-6657C	216	A	1	CAC	CAV		polim�rico y porcelana					bueno	3
+523	L-6657C	217	A	1	CAC	CAV		polim�rico					bueno	3
+524	L-6657C	218	A	1	CAC	CAV		polim�rico					bueno	3
+525	L-6657C	219	A	1	CAC	CAV		polim�rico					bueno	3
+526	L-6657C	220	A	1	CAC	CAV		polim�rico y porcelana					bueno	3
+527	L-6657C	221	AD	3	madera			polim�rico	bueno	bueno		buenos	bueno	3
+528	L-6657C	222	AD	2	CAC	CAV	CAV	porcelana	bueno	bueno		buenos	bueno	3
+529	L-6657D	1	AD	Buena	Buenos	Bueno		Polim�rico	bueno	bueno		Buenos	Bueno	3
+530	L-6657D	2	A	Buena	Buenos	Bueno		Polim�rico y porcelana					Bueno	3
+531	L-6657D	3	A	Buena	Buenos	Bueno		Polim�rico y porcelana					Bueno	3
+532	L-6657D	4	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+533	L-6657D	5	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+534	L-6657D	6	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+535	L-6657D	7	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+536	L-6657D	8	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+537	L-6657D	9	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+538	L-6657D	10	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+539	L-6657D	11	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+540	L-6657D	12	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+541	L-6657D	13	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+542	L-6657D	14	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+543	L-6657D	15	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+544	L-6657D	16	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+545	L-6657D	17	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+546	L-6657D	18	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+547	L-6657D	19	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+548	L-6657D	20	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+549	L-6657D	21	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+550	L-6657D	22	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+551	L-6657D	23	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+552	L-6657D	24	A	Buena	Buenos	Bueno		Polim�rico y porcelana					Bueno	3
+553	L-6657D	25	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+554	L-6657D	26	AD	Buena	Buenos	Bueno		Polim�rico	bueno	bueno		Buenos	Bueno	3
+555	L-6657D	27	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+556	L-6657D	28	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+557	L-6657D	29	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+558	L-6657D	30	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+559	L-6657D	31	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+560	L-6657D	32	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+561	L-6657D	33	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+562	L-6657D	34	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+563	L-6657D	35	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+564	L-6657D	36	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+565	L-6657D	37	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+566	L-6657D	38	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+567	L-6657D	39	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+568	L-6657D	40	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+569	L-6657D	41	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+570	L-6657D	42	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+571	L-6657D	43	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+572	L-6657D	44	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+573	L-6657D	45	A	Buena	Buenos	Bueno		Polim�rico					Bueno	3
+574	L-6657D	46	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+575	L-6657D	47	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+576	L-6657D	48	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+577	L-6657D	49	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+578	L-6657D	50	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+579	L-6657D	51	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+580	L-6657D	52	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+581	L-6657D	53	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+582	L-6657D	54	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+583	L-6657D	55	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+584	L-6657D	56	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+585	L-6657D	57	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+586	L-6657D	58	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+587	L-6657D	59	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+588	L-6657D	60	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+589	L-6657D	61	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+590	L-6657D	62	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+591	L-6657D	63	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+592	L-6657D	64	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+593	L-6657D	65	AD	Buena	Buenos	Bueno		Polim�rico y porcelana	bueno	bueno		Buenos	Bueno	3
+594	L-6657D	66	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+595	L-6657D	67	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+596	L-6657D	68	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+597	L-6657D	69	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+598	L-6657D	70	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+599	L-6657D	71	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+600	L-6657D	72	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+601	L-6657D	73	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+602	L-6657D	74	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+603	L-6657D	75	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+604	L-6657D	76	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+605	L-6657D	77	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+606	L-6657D	78	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+607	L-6657D	79	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+608	L-6657D	80	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+609	L-6657D	81	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+610	L-6657D	82	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+611	L-6657D	83	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+612	L-6657D	84	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+613	L-6657D	85	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+614	L-6657D	86	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+615	L-6657D	87	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+616	L-6657D	88	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+617	L-6657D	89	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+618	L-6657D	90	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+619	L-6657D	91	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+620	L-6657D	92	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+621	L-6657D	93	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+622	L-6657D	94	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+623	L-6657D	95	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+624	L-6657D	96	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+625	L-6657D	97	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+626	L-6657D	98	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+627	L-6657D	99	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+628	L-6657D	100	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+629	L-6657D	101	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+630	L-6657D	102	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+631	L-6657D	103	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+632	L-6657D	104	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+633	L-6657D	105	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+634	L-6657D	106	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+635	L-6657D	107	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+636	L-6657D	108	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+637	L-6657D	109	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+638	L-6657D	110	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+639	L-6657D	111	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+640	L-6657D	112	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+641	L-6657D	113	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+642	L-6657D	114	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+643	L-6657D	115	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+644	L-6657D	116	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+645	L-6657D	117	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+646	L-6657D	118	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+647	L-6657D	119	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+648	L-6657D	120	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+649	L-6657D	121	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+650	L-6657D	122	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+651	L-6657D	123	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+652	L-6657D	124	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+653	L-6657D	125	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+654	L-6657D	126	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+655	L-6657D	127	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+656	L-6657D	128	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+657	L-6657D	129	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+658	L-6657D	130	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+659	L-6657D	131	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+660	L-6657D	132	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+661	L-6657D	133	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+662	L-6657D	134	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+663	L-6657D	135	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+664	L-6657D	136	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+665	L-6657D	137	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+666	L-6657D	138	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+667	L-6657D	139	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+668	L-6657D	140	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+669	L-6657D	141	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+670	L-6657D	142	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+671	L-6657D	143	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+672	L-6657D	144	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+673	L-6657D	145	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+674	L-6657D	146	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+675	L-6657D	147	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+676	L-6657D	148	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+677	L-6657D	149	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+678	L-6657D	150	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+679	L-6657D	151	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+680	L-6657D	152	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+681	L-6657D	153	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+682	L-6657D	154	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+683	L-6657D	155	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+684	L-6657D	156	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+685	L-6657D	157	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+686	L-6657D	158	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+687	L-6657D	159	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+688	L-6657D	160	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+689	L-6657D	161	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+690	L-6657D	162	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+691	L-6657D	163	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+692	L-6657D	164	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+693	L-6657D	165	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+694	L-6657D	166	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+695	L-6657D	167	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+696	L-6657D	168	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+697	L-6657D	169	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+698	L-6657D	170	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+699	L-6657D	171	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+700	L-6657D	172	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+701	L-6657D	173	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+702	L-6657D	174	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+703	L-6657D	175	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+704	L-6657D	176	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+705	L-6657D	177	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+706	L-6657D	178	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+707	L-6657D	179	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+708	L-6657D	180	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+709	L-6657D	181	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+710	L-6657D	182	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+711	L-6657D	183	A	Buena	Buenos	Reseco		Porcelana					Bueno	3
+712	L-6657D	184	AD	Buena	Buenos	Reseco		Porcelana	bueno	bueno		Buenos	Bueno	3
+713	L-6657D	1D	AD	Buena	Buenos	Bueno		Polim�rico	bueno	bueno		Buenos	Bueno	3
+714	L-6657D	2D	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+715	L-6657D	3D	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+716	L-6657D	4D	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+717	L-6657D	5D	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+718	L-6657D	6D	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+719	L-6657D	7D	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+720	L-6657D	8D	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+721	L-6657D	9D	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+722	L-6657D	10D	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+723	L-6657D	11D	A	Buena	Buenos	Bueno		Porcelana					Bueno	3
+724	L-6657D	12D	AD	Buena	Buenos	Bueno		Porcelana	bueno	bueno		Buenos	Bueno	3
+725	L-6560	1	CD	1	celos�a			Polim�rico	bueno	bueno		buenos	bueno	3
+726	L-6560	2	A2	1	madera			Polim�rico	bueno	bueno		buenos	bueno	3
+727	L-6560	3	A	1	madera			Polim�rico					bueno	3
+728	L-6560	4	A1	1	madera			Polim�rico					bueno	3
+729	L-6560	5	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+730	L-6560	6	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+731	L-6560	7	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+732	L-6560	8	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+733	L-6560	9	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+734	L-6560	10	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+735	L-6560	11	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+736	L-6560	12	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		buenos	bueno	3
+737	L-6560	13	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+738	L-6560	14	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+739	L-6560	15	A	1	madera	F�G�	F� G�	Polim�rico					bueno	3
+740	L-6560	16	A	1	madera	madera / F� G�	F� G�	Polim�rico					bueno	3
+741	L-6560	17	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+742	L-6560	18	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+743	L-6560	19	A	1	madera	fierro	F� G�	Polim�rico					bueno	3
+744	L-6560	20	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		ok	bueno	3
+745	L-6560	21	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+746	L-6560	22	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+747	L-6560	23	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+748	L-6560	24	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+749	L-6560	25	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+750	L-6560	26	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+751	L-6560	27	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+752	L-6560	28	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+753	L-6560	29	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		ok	bueno	3
+754	L-6560	30	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+755	L-6560	31	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+756	L-6560	32	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+757	L-6560	33	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+758	L-6560	34	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+759	L-6560	35	A	1	madera	F�G�	F� G�	Polim�rico					bueno	3
+760	L-6560	36	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+761	L-6560	37	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+762	L-6560	38	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		ok	bueno	3
+763	L-6560	39	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+764	L-6560	40	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+765	L-6560	41	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+766	L-6560	42	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+767	L-6560	43	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+768	L-6560	44	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+769	L-6560	45	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+770	L-6560	46	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+771	L-6560	47	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		ok	bueno	3
+772	L-6560	48	AD	1	CAC			Polim�rico	bueno	bueno		ok	bueno	3
+773	L-6561	1	AD	1	CAC			Polim�rico	bueno	bueno		Buenos	bueno	3
+774	L-6561	2	A2	1	madera			Polim�rico	bueno	bueno		buenos	bueno	3
+775	L-6561	3	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+776	L-6561	4	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+777	L-6561	5	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+778	L-6561	6	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+779	L-6561	7	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+780	L-6561	8	A1	1	madera			Polim�rico					bueno	3
+781	L-6561	9	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		Buenos	bueno	3
+782	L-6561	10	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		Buenos	bueno	3
+783	L-6561	11	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		Buenos	bueno	3
+784	L-6561	12	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+785	L-6561	13	A	1	fibra			Polim�rico					bueno	3
+786	L-6561	14	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+787	L-6561	15	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+788	L-6561	16	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+789	L-6561	17	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+790	L-6561	18	A1	1	madera			Polim�rico					bueno	3
+791	L-6561	19	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+792	L-6561	20	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		Buenos	bueno	3
+793	L-6561	21	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+794	L-6561	22	A1	1	madera			Polim�rico					bueno	3
+795	L-6561	23	A1	1	madera			Polim�rico					bueno	3
+796	L-6561	24	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+797	L-6561	25	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+798	L-6561	26	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+799	L-6561	27	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		Buenos	bueno	3
+800	L-6561	28	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+801	L-6561	29	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		Buenos	bueno	3
+802	L-6561	30	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+803	L-6561	31	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+804	L-6561	32	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+805	L-6561	33	A1	1	madera			Polim�rico					bueno	3
+806	L-6561	34	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+807	L-6561	35	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+808	L-6561	36	A1	1	madera			Polim�rico					bueno	3
+809	L-6561	37	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+810	L-6561	38	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+811	L-6561	39	A1	1	madera			Polim�rico					bueno	3
+812	L-6561	40	A1	1	madera			Polim�rico					bueno	3
+813	L-6561	41	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+814	L-6561	42	A2	1	madera			Polim�rico	bueno	bueno		Buenos	bueno	3
+815	L-6561	43	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+816	L-6561	44	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+817	L-6561	45	A1	1	madera			Polim�rico					bueno	3
+818	L-6561	46	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+819	L-6561	47	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+820	L-6561	48	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+821	L-6561	49	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+822	L-6561	50	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+823	L-6561	51	A1	1	madera			Polim�rico					bueno	3
+824	L-6561	52	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		buenos	bueno	3
+825	L-6561	53	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+826	L-6561	54	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		Buenos	bueno	3
+827	L-6561	55	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+828	L-6561	56	A1	1	madera			Polim�rico					bueno	3
+829	L-6561	57	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+830	L-6561	58	A1	1	madera			Polim�rico					bueno	3
+831	L-6561	59	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+832	L-6561	60	A1	1	madera			Polim�rico					bueno	3
+833	L-6561	61	A1	1	madera			Polim�rico					bueno	3
+834	L-6561	62	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+835	L-6561	63	A1	1	madera			Polim�rico					bueno	3
+836	L-6561	64	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+837	L-6561	65	A1	1	madera			Polim�rico					bueno	3
+838	L-6561	66	A1	1	madera			Polim�rico					bueno	3
+839	L-6561	67	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+840	L-6561	68	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+841	L-6561	69	A1	1	madera			Polim�rico					bueno	3
+842	L-6561	70	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		Buenos	bueno	3
+843	L-6561	71	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+844	L-6561	72	A2	1	madera			Polim�rico	bueno	bueno		Buenos	bueno	3
+845	L-6561	73	A2	1	madera			Polim�rico	bueno	bueno			bueno	3
+846	L-6561	74	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+847	L-6561	75	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+848	L-6561	76	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+849	L-6561	77	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno		Buenos	bueno	3
+850	L-6561	78	A2	1	madera			Polim�rico	bueno	bueno			revisar	3
+851	L-6561	79	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+852	L-6561	80	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+853	L-6561	81	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+854	L-6561	82	A1	1	madera			Polim�rico					bueno	3
+855	L-6561	83	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+856	L-6561	84	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+857	L-6561	85	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+858	L-6561	86	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno			bueno	3
+859	L-6561	87	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+860	L-6561	88	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno			bueno	3
+861	L-6561	89	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+862	L-6561	90	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+863	L-6561	91	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+864	L-6561	92	A1	1	madera			Polim�rico					bueno	3
+865	L-6561	93	A1	1	madera			Polim�rico					bueno	3
+866	L-6561	94	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+867	L-6561	95	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno			bueno	3
+868	L-6561	96	A1	1	madera			Polim�rico					bueno	3
+869	L-6561	97	A2	1	madera			Polim�rico	bueno	bueno			bueno	3
+870	L-6561	98	A2	1	madera			Polim�rico	bueno	bueno			bueno	3
+871	L-6561	99	A2	1	madera			Polim�rico	bueno	bueno			revisar	3
+872	L-6561	100	A	1	madera			Polim�rico					bueno	3
+873	L-6561	101	A	1	madera			Polim�rico					bueno	3
+874	L-6561	102	A2	1	madera			Polim�rico	bueno	bueno			bueno	3
+875	L-6561	103	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+876	L-6561	104	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+877	L-6561	105	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+878	L-6561	106	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+879	L-6561	107	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+880	L-6561	108	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+881	L-6561	109	A1	1	madera			Polim�rico					bueno	3
+882	L-6561	110	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+883	L-6561	111	A1	1	madera			Polim�rico					bueno	3
+884	L-6561	112	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+885	L-6561	113	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno			bueno	3
+886	L-6561	114	A1	1	madera			Polim�rico					bueno	3
+887	L-6561	115	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+888	L-6561	116	A1	1	madera			Polim�rico					bueno	3
+889	L-6561	117	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+890	L-6561	118	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+891	L-6561	119	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+892	L-6561	120	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+893	L-6561	121	A	1	madera	madera	F� G�	Polim�rico					bueno	3
+894	L-6561	122	AD	1	madera	madera	F� G�	Polim�rico	bueno	bueno			bueno	3
+895	L-6561	123	A2	1	madera			Polim�rico					bueno	3
+896	L-6658B	1	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+897	L-6658B	3	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+898	L-6658B	4	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+899	L-6658B	5	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+900	L-6658B	6	A3	1	madera			Polim�rico	buena	buena		buenos	bueno	3
+901	L-6658B	7	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+902	L-6658B	8	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+903	L-6658B	9	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+904	L-6658B	10	A1	1	madera			Polim�rico					bueno	3
+905	L-6658B	11	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+906	L-6658B	12	A1	1	madera			Polim�rico					bueno	3
+907	L-6658B	13	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+908	L-6658B	14	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+909	L-6658B	15	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+910	L-6658B	16	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+911	L-6658B	17	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+912	L-6658B	18	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+913	L-6658B	19	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+914	L-6658B	20	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+915	L-6658B	21	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+916	L-6658B	22	A1	1	madera			Polim�rico					bueno	3
+917	L-6658B	23	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+918	L-6658B	24	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+919	L-6658B	25	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+920	L-6658B	26	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+921	L-6658B	27	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+922	L-6658B	28	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+923	L-6658B	29	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+924	L-6658B	30	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+925	L-6658B	31	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+926	L-6658B	32	A1	1	madera			Polim�rico					bueno	3
+927	L-6658B	33	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+928	L-6658B	34	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+929	L-6658B	35	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+930	L-6658B	36	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+931	L-6658B	37	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+932	L-6658B	38	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+933	L-6658B	39	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+934	L-6658B	40	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+935	L-6658B	41	A1	1	madera			Polim�rico					bueno	3
+936	L-6658B	42	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+937	L-6658B	43	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+938	L-6658B	44	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+939	L-6658B	45	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+940	L-6658B	46	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+941	L-6658B	47	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+942	L-6658B	48	A1	1	madera			Polim�rico					bueno	3
+943	L-6658B	49	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+944	L-6658B	50	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+945	L-6658B	51	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+946	L-6658B	52	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+947	L-6658B	53	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+948	L-6658B	54	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+949	L-6658B	55	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+950	L-6658B	56	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+951	L-6658B	57	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+952	L-6658B	58	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+953	L-6658B	59	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+954	L-6658B	60	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+955	L-6658B	61	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+956	L-6658B	62	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+957	L-6658B	63	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+958	L-6658B	64	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+959	L-6658B	65	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+960	L-6658B	66	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+961	L-6658B	67	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+962	L-6658B	68	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+963	L-6658B	69	A1	1	madera			Polim�rico					bueno	3
+964	L-6658B	70	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+965	L-6658B	71	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+966	L-6658B	72	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+967	L-6658B	73	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+968	L-6658B	74	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+969	L-6658B	75	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+970	L-6658B	76	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+971	L-6658B	77	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+972	L-6658B	78	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+973	L-6658B	79	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+974	L-6658B	80	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+975	L-6658B	81	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+976	L-6658B	82	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+977	L-6658B	83	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+978	L-6658B	84	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+979	L-6658B	85	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+980	L-6658B	86	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+981	L-6658B	87	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+982	L-6658B	88	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+983	L-6658B	89	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+984	L-6658B	90	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+985	L-6658B	91	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+986	L-6658B	92	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+987	L-6658B	93	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		buenos	bueno	3
+988	L-6658B	94	A2	1	madera			Polim�rico	buena	buena		buenos	bueno	3
+989	L-6658B	95	A1	1	madera			Polim�rico					bueno	3
+990	L-6658B	96	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+991	L-6658B	97	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+992	L-6658B	98	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+993	L-6658B	99	A1	1	madera			Polim�rico					bueno	3
+994	L-6658B	100	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+995	L-6658B	101	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+996	L-6658B	102	A2	1	madera			Polim�rico	buena	buena		buenos	bueno	3
+997	L-6658C	1	A2	1	madera			Polim�rico	buena	buena		OK.	bueno	3
+998	L-6658C	2	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+999	L-6658C	3	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1000	L-6658C	4	A1	1	madera			Polim�rico					bueno	3
+1001	L-6658C	5	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1002	L-6658C	6	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1003	L-6658C	7	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1004	L-6658C	8	A1	1	madera	madera	F�G�	Polim�rico					bueno	3
+1005	L-6658C	9	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		OK.	bueno	3
+1006	L-6658C	10	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1007	L-6658C	11	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1008	L-6658C	12	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1009	L-6658C	13	A1	1	madera			Polim�rico					bueno	3
+1010	L-6658C	14	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1011	L-6658C	15	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1012	L-6658C	16	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1013	L-6658C	17	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1014	L-6658C	18	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1015	L-6658C	19	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		OK.	bueno	3
+1016	L-6658C	20	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1017	L-6658C	21	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1018	L-6658C	22	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1019	L-6658C	23	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1020	L-6658C	24	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1021	L-6658C	25	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1022	L-6658C	26	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		OK.	bueno	3
+1023	L-6658C	27	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1024	L-6658C	28	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1025	L-6658C	29	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1026	L-6658C	30	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1027	L-6658C	31	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1028	L-6658C	32	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1029	L-6658C	33	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1030	L-6658C	34	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1031	L-6658C	35	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1032	L-6658C	36	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1033	L-6658C	37	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1034	L-6658C	38	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1035	L-6658C	39	AD	1	madera	madera	F�G�	Polim�rico	buena	buena			bueno	3
+1036	L-6658C	40	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1037	L-6658C	41	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1038	L-6658C	42	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1039	L-6658C	43	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1040	L-6658C	44	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1041	L-6658C	45	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1042	L-6658C	46	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1043	L-6658C	47	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1044	L-6658C	48	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1045	L-6658C	49	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1046	L-6658C	50	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		OK.	bueno	3
+1047	L-6658C	51	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1048	L-6658C	52	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1049	L-6658C	53	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1050	L-6658C	54	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1051	L-6658C	55	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1052	L-6658C	56	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1053	L-6658C	57	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1054	L-6658C	58	A1	1	madera			Polim�rico					bueno	3
+1055	L-6658C	59	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1056	L-6658C	60	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1057	L-6658C	61	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1058	L-6658C	62	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1059	L-6658C	63	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		OK.	bueno	3
+1060	L-6658C	64	A1	1	madera			Polim�rico					bueno	3
+1061	L-6658C	65	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1062	L-6658C	66	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1063	L-6658C	67	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1064	L-6658C	68	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1065	L-6658C	69	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1066	L-6658C	70	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1067	L-6658C	71	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1068	L-6658C	72	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1069	L-6658C	73	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1070	L-6658C	74	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1071	L-6658C	75	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1072	L-6658C	76	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		OK.	bueno	3
+1073	L-6658C	77	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1074	L-6658C	78	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1075	L-6658C	79	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1076	L-6658C	80	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1077	L-6658C	81	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1078	L-6658C	82	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1079	L-6658C	83	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1080	L-6658C	84	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1081	L-6658C	85	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1082	L-6658C	86	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1083	L-6658C	87	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		OK.	bueno	3
+1084	L-6658C	88	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1085	L-6658C	89	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1086	L-6658C	90	A	1	madera	madera	F�G�	Polim�rico					bueno	3
+1087	L-6658C	91	AD	1	madera	madera	F�G�	Polim�rico	buena	buena		OK.	bueno	3
